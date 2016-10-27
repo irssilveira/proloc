@@ -33,3 +33,5 @@ Route::group(['prefix' => 'leads'],function() {
     //Route::get('{id}/{idLead}/inativarleadhistorico',['as'=>'admin.leads.inativarhistorico','uses'=>'AdminController@inativarHistoricoLead']);
 
 });
+
+Route::get('teste','LeadController@IgoUUU');
