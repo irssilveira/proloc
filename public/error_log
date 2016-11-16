@@ -1,0 +1,25 @@
+[08-Nov-2016 16:17:30 UTC] PHP Fatal error:  Call to a member function format() on boolean in /home/proloco/app/Http/Controllers/LeadController.php on line 105
+[08-Nov-2016 15:05:55 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class proloc\Http\Kernel does not exist' in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('proloc\\Http\\Ker...')
+#1 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('proloc\\Http\\Ker...', Array)
+#2 /home/proloco/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('proloc\\Http\\Ker...', Array)
+#3 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(231): Illuminate\Foundation\Application->make('proloc\\Http\\Ker...', Array)
+#4 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(746): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/proloco/v in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 749
+[08-Nov-2016 15:06:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class proloc\Http\Kernel does not exist' in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('proloc\\Http\\Ker...')
+#1 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('proloc\\Http\\Ker...', Array)
+#2 /home/proloco/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('proloc\\Http\\Ker...', Array)
+#3 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(231): Illuminate\Foundation\Application->make('proloc\\Http\\Ker...', Array)
+#4 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(746): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/proloco/v in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 749
+[08-Nov-2016 15:06:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class proloc\Http\Kernel does not exist' in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('proloc\\Http\\Ker...')
+#1 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('proloc\\Http\\Ker...', Array)
+#2 /home/proloco/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('proloc\\Http\\Ker...', Array)
+#3 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(231): Illuminate\Foundation\Application->make('proloc\\Http\\Ker...', Array)
+#4 /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php(746): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/proloco/v in /home/proloco/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 749

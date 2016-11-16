@@ -1,0 +1,1975 @@
+# Webalizer V2.23-05 Incremental Data - 11/15/2016 09:37:08
+2016 11 15 9 37 8
+5257 3000 462 82 68 67 132774409 1847 517 0
+13 1 816 1 15
+1608 1058 42663030 52 310 58
+116 3 30415 104 111 104
+579 258 12116102 56 227 62
+283 180 9285435 26 95 26
+30 0 6316 16 16 16
+35 4 426676 18 19 15
+159 87 3188628 23 69 25
+816 447 20665164 30 229 33
+343 207 9822218 35 132 35
+867 590 27385558 37 392 39
+237 130 5827251 23 115 26
+72 29 1313234 24 45 24
+30 1 10476 17 29 18
+60 5 25133 26 37 24
+22 1 8773 13 21 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+71 20 924623 43
+45 9 519557 23
+23 0 14859 15
+17 0 3324 17
+44 9 26463 36
+24 3 13209 24
+19 0 13707 16
+266 138 6563153 119
+262 142 6110021 111
+130 36 1518365 53
+90 38 1359677 45
+130 46 2299444 59
+428 262 13103495 126
+469 346 16664839 202
+295 200 9376576 119
+484 303 12175359 158
+1277 860 35574849 279
+567 319 12634566 116
+151 96 4712666 67
+206 75 4242091 89
+187 95 4494404 61
+21 3 419316 18
+22 0 4418 22
+29 0 5428 29
+0
+0
+0
+3000
+0
+0
+0
+0
+0
+17
+0
+3
+996
+0
+885
+0
+0
+2
+0
+0
+0
+332
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+0
+0
+0
+0
+# -urls- 
+/leads/26/editelead
+0 1 4994009611162234165 19528 0 0
+/css/app.css
+0 152 3543542577748588336 12579080 0 0
+/arq/Flot/jquery.flot.time.js
+0 113 1478171393 929672 0 0
+/arq/bootstrap/dist/css/bootstrap.min.css.map
+0 9 4994009611162170157 4337552 0 0
+/arq/iCheck/icheck.min.js
+0 31 19508672 113413 0 0
+/js/datepicker/daterangepicker.js
+0 33 0 572462 0 0
+/register
+0 28 0 109082 0 1
+/leads/salvarleadhistorico
+0 4 0 649 0 1
+/arq/jqvmap/dist/jquery.vmap.js
+0 31 0 783564 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.woff
+0 6 0 452060 0 0
+/leads/44/editelead
+0 2 0 38573 0 0
+/leads/77/49/inativarleadhistorico
+0 1 0 18968 0 0
+/leads/76/48/inativarleadhistorico
+0 1 0 18958 0 0
+/build/css/custom.min.css
+0 147 0 7160213 0 0
+/password/reset
+0 8 0 28047 2 1
+/images/usuario/img-person.png
+0 87 0 77650 0 0
+/leads/5/editelead
+0 3 0 65284 0 1
+/build/js/geolocation.js
+0 29 0 35360 0 0
+/arq/jqvmap/examples/js/jquery.vmap.sampledata.js
+0 38 0 64422 0 0
+/arq/iCheck/skins/flat/green.css
+0 34 0 31608 0 0
+/leads/14/editelead
+0 1 0 19104 0 1
+/leads/72/45/inativarleadhistorico
+0 1 0 18999 0 0
+/arq/Flot/jquery.flot.resize.js
+0 113 0 265120 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.ttf
+0 1 0 152796 0 0
+/favicon.ico
+0 133 0 0 0 0
+/leads/34/editelead
+0 4 0 80565 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.woff2
+0 106 0 5990113 0 0
+/js/app.js
+0 142 0 29294831 0 0
+/leads/51/editelead
+0 1 0 19306 0 0
+/leads/68/41/inativarleadhistorico
+0 1 0 19006 0 0
+/leads/48/editelead
+0 1 0 19238 0 0
+/leads/79/51/inativarleadhistorico
+0 1 3617570475165889070 19026 0 0
+/arq/flot-spline/js/jquery.flot.spline.min.js
+0 31 3761119427755573504 40388 0 0
+/leads/15/editelead
+0 1 4049068328913614905 19434 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+0 5 72057594037957218 117120 0 0
+/leads/novo
+0 176 1952804398 3254669 4 6
+/leads/69/42/inativarleadhistorico
+0 1 499917925998 19007 0 0
+/arq/skycons/skycons.js
+0 113 7885630523453039470 1502975 0 0
+/login
+0 277 19461664 1820900 30 10
+/leads/9/editelead
+0 1 0 19445 0 1
+/arq/font-awesome/css/font-awesome.min.css
+0 117 0 2470355 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.eot
+0 1 0 76518 0 0
+/arq/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js
+0 117 0 5604734 0 0
+/arq/gauge.js/dist/gauge.min.js
+0 31 0 410504 0 0
+/arq/jquery/dist/jquery.min.js
+0 116 0 6846240 0 0
+/leads/8/editelead
+0 1 0 21521 0 0
+/arq/fastclick/lib/fastclick.js
+0 31 0 597195 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+0 58 0 775204 0 0
+/leads/43/editelead
+0 1 0 19280 0 0
+/leads/28/editelead
+0 1 0 19040 0 0
+/ponto-partida
+0 29 0 464 1 3
+/leads/70/43/inativarleadhistorico
+0 1 0 19000 0 0
+/arq/Flot/jquery.flot.js
+0 114 0 9681942 0 0
+/arq/bootstrap/dist/js/bootstrap.min.js
+0 113 0 2912572 0 0
+/arq/bootstrap-progressbar/bootstrap-progressbar.min.js
+0 34 0 55992 0 0
+/arq/flot.curvedlines/curvedLines.js
+0 31 0 375774 0 0
+/
+0 177 0 2068757 451 42
+/leads/45/editelead
+0 1 0 19279 0 0
+/leads/salvarlead
+0 9 0 121472 2 0
+/leads/71/44/inativarleadhistorico
+0 1 0 18995 0 0
+/leads/42/editelead
+0 1 0 19287 0 0
+/images/img.jpg
+0 109 0 318006 0 0
+/arq/Flot/jquery.flot.stack.js
+0 112 0 560110 0 0
+/arq/DateJS/build/date.js
+0 33 0 2965942 0 0
+/arq/jqvmap/dist/jqvmap.min.css
+0 33 0 14904 0 0
+/leads/33/editelead
+0 1 0 19833 0 0
+/arq/nprogress/nprogress.js
+0 31 0 265995 0 0
+/leads/41/editelead
+0 1 0 19286 0 0
+/arq/bootstrap-progressbar/css/bootstrap-progressbar.css
+0 33 0 120336 0 0
+/js/moment/moment.min.js
+0 33 0 798951 0 0
+/robots.txt
+0 11 0 264 0 0
+/arq/jqvmap/dist/maps/jquery.vmap.world.js
+0 37 0 1575574 0 0
+/arq/Flot/jquery.flot.pie.js
+0 114 0 1864528 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+0 1 0 20127 0 0
+/arq/nprogress/nprogress.css
+0 33 0 34992 0 0
+/arq/Chart.js/dist/Chart.min.js
+0 31 0 3384887 0 0
+/leads
+0 143 0 3223256 4 6
+/arq/bootstrap/dist/css/bootstrap.min.css
+0 118 0 10423200 0 0
+/arq/flot.orderbars/js/jquery.flot.orderBars.js
+0 31 0 159137 0 0
+/build/js/custom.min.js
+0 141 0 660514 0 0
+/leads/49/editelead
+0 2 0 38496 0 0
+/leads/36/editelead
+0 1 0 19339 0 0
+# End Of Table - urls
+# -sites- (monthly)
+82.114.86.91
+0 1 0 208 1 1478304540
+/
+123.59.61.214
+0 1 0 217 0 0
+-
+85.204.97.10
+0 2 0 0 2 1478136145
+/
+176.233.46.34
+0 1 0 193 1 1478030143
+/
+124.13.99.76
+0 1 0 193 1 1478217703
+/
+tagconference.com
+0 1 0 215 1 1478257661
+-
+195.141.14.211
+0 2 0 0 2 1478974866
+/
+221.4.220.93
+0 3 1 4793 1 1479046194
+/
+cable-89-216-113-52.static.sbb.rs
+0 1 0 193 1 1478065548
+/
+213.57.79.173
+0 1 0 193 1 1478355356
+/
+host-91-93-58-31.reverse.superonline.net
+0 1 0 193 1 1478042794
+/
+149-210-58-106.mobile.nym.cosmote.net
+0 1 0 193 1 1478919889
+/
+host-78.242-185-111.static.totalbb.net.tw
+0 1 0 193 1 1478071979
+/
+220-133-0-15.hinet-ip.hinet.net
+0 1 0 193 1 1478594458
+/
+190.83.224.4
+0 1 0 193 1 1478293855
+/
+173.252.123.136
+0 1 1 203 1 1477985778
+/
+70.111.82.187.isp.timbrasil.com.br
+0 35 12 430141 2 1478184838
+/leads
+220-135-230-124.hinet-ip.hinet.net
+0 1 0 193 1 1479092177
+/
+93-87-166-115.dynamic.isp.telekom.rs
+0 1 0 193 1 1478033198
+/
+186-210-110-113.xd-dynamic.algarnetsuper.com.br
+0 218 143 6695681 5 1478194069
+/leads/novo
+106.1.212.218
+0 1 0 193 1 1478282569
+/
+220-128-104-31.hinet-ip.hinet.net
+0 1 0 193 1 1478598502
+/
+186-210-198-38.xd-dynamic.algarnetsuper.com.br
+0 400 223 9682536 5 1478625636
+/login
+186-210-204-144.xd-dynamic.algarnetsuper.com.br
+0 196 152 7209083 4 1478702684
+/login
+bb275f45.virtua.com.br
+0 5 0 1066 1 1478651827
+-
+cpe-185-39-75-47.enet.vn.ua
+0 1 0 193 1 1479096598
+/
+pppgint-72-8.b-online.gr
+0 1 0 193 1 1478150011
+/
+187-127-73-53.user.veloxzone.com.br
+0 17 11 867446 2 1478793555
+/password/reset
+richmonother.com
+0 3 0 615 1 1478860803
+/
+178.162.205.27
+0 1 0 352 1 1478913553
+/
+bzq-218-153-22.cablep.bezeqint.net
+0 1 0 193 1 1478524305
+/
+189-041-081-41.xd-dynamic.algarnetsuper.com.br
+0 7 3 127076 1 1478715929
+/login
+115.135.236.203
+0 1 0 193 1 1478493321
+/
+cpe18593347d10e-cm18593347d10b.cpe.net.cable.rogers.com
+0 5 0 965 1 1478038709
+/
+197-89-173-20.dsl.mweb.co.za
+0 1 0 372 1 1478018387
+/
+196.52.43.59
+0 1 0 193 1 1478125420
+/
+host-79-79-52-88.static.as13285.net
+0 1 0 193 1 1478129712
+/
+200-163-173-126.nhoce200.dial.brasiltelecom.net.br
+0 40 32 1664413 1 1478635764
+/leads
+179-237-152-28.user3g.veloxzone.com.br
+0 30 22 1600634 2 1478177615
+/
+host-197.45.167.94.tedata.net
+0 1 0 193 1 1478364789
+/
+1-34-27-15.hinet-ip.hinet.net
+0 1 0 193 1 1478104590
+/
+c-73-177-26-22.hsd1.tn.comcast.net
+0 1 0 193 1 1478181934
+/
+ip231.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188606
+/
+prahle.fightles.com
+0 3 0 618 1 1478925331
+/
+220-133-22-86.hinet-ip.hinet.net
+0 1 0 193 1 1479004494
+/
+175.137.84.6
+0 1 0 193 1 1478046915
+/
+smtp16.take-tours.com
+0 2 0 410 1 1478688233
+/
+210-242-144-235.hinet-ip.hinet.net
+0 1 0 193 1 1478340320
+/
+191.96.249.112
+0 4 0 860 0 0
+-
+192.116.49.149
+0 1 0 193 1 1478023820
+/
+220-132-234-56.hinet-ip.hinet.net
+0 1 0 193 1 1478042511
+/
+dynamic.ip.77.69.241.252.batelco.com.bh
+0 1 0 193 1 1478431284
+/
+crawl-66-249-69-169.googlebot.com
+0 3 3 3540 1 1478838094
+/password/reset
+179-104-237-216.xd-dynamic.algarnetsuper.com.br
+0 48 4 111631 2 1478635412
+/leads/novo
+93-86-108-72.dynamic.isp.telekom.rs
+0 1 0 193 1 1478046504
+/
+abts-north-dynamic-242.118.163.122.airtelbroadband.in
+0 1 0 193 1 1478816707
+/
+178-223-49-36.dynamic.isp.telekom.rs
+0 1 0 193 1 1478493837
+/
+177-191-089-184.xd-dynamic.algarnetsuper.com.br
+0 3 2 46693 1 1478017508
+/leads/novo
+116.193.152.124
+0 1 0 226 1 1478101969
+-
+c-50-152-187-165.hsd1.ca.comcast.net
+0 1 0 193 1 1478048940
+/
+134customer-246-107-179.tcm10.com.br
+0 15 8 436932 1 1478635554
+/login
+175.141.84.83
+0 1 0 193 1 1478176268
+/
+scan-15.shadowserver.org
+0 1 0 352 1 1478931859
+/
+118.69.32.99
+0 1 0 193 1 1478669150
+/
+179.53.162.53
+0 1 0 193 1 1478073635
+/
+91.230.121.73
+0 1 0 193 1 1478090161
+/
+47.151.21.138
+0 2 0 386 2 1478373909
+/
+198.167.136.179
+0 6 0 1290 1 1478398417
+-
+mail.unisimonbolivar.edu.co
+0 1 0 372 1 1478016449
+/
+host109-154-125-12.range109-154.btcentralplus.com
+0 1 0 193 1 1478273505
+/
+li1290-60.members.linode.com
+0 1 0 202 1 1478370848
+/
+85.64.117.246.dynamic.barak-online.net
+0 1 0 193 1 1478069216
+/
+c-50-152-200-38.hsd1.ca.comcast.net
+0 1 0 193 1 1478723990
+/
+37.48.94.6
+0 1 0 227 1 1478217769
+-
+177-176-178-162.user3g.veloxzone.com.br
+0 52 46 1796987 1 1478015091
+/leads/novo
+crawl-66-249-65-124.googlebot.com
+0 3 2 3892 1 1478686755
+/password/reset
+46.172.91.20
+0 5 0 1172 5 1479138326
+/
+175.143.188.237
+0 1 0 193 1 1478747488
+/
+107-198-116-105.lightspeed.miamfl.sbcglobal.net
+0 1 0 193 1 1478277679
+/
+bzq-82-81-103-51.red.bezeqint.net
+0 1 0 193 1 1478662351
+/
+scan-10.shadowserver.org
+0 4 1 1259 4 1479121241
+/
+72.253.94.16
+0 1 0 193 1 1478290530
+/
+researchscan383.eecs.umich.edu
+0 1 0 202 1 1479053639
+-
+87.70.7.121
+0 1 0 193 1 1478184266
+/
+162-196-250-59.lightspeed.miamfl.sbcglobal.net
+0 1 0 193 1 1478149483
+/
+201-58-73-160.user3g.veloxzone.com.br
+0 39 30 938805 1 1478614698
+/login
+191-054-210-149.xd-dynamic.algarnetsuper.com.br
+0 32 28 1256059 1 1478801827
+/leads
+crawl-66-249-69-134.googlebot.com
+0 2 0 434 1 1478837594
+/
+sign.bestofcartrak.com
+0 3 0 618 1 1478927477
+/
+150-232.iconnectbg.net
+0 1 0 193 1 1478029138
+/
+220-132-7-2.hinet-ip.hinet.net
+0 1 0 193 1 1478044313
+/
+researchscan1.eecs.berkeley.edu
+0 1 0 226 1 1478075737
+/
+177-191-036-175.xd-dynamic.algarnetsuper.com.br
+0 1 0 193 1 1478079939
+/
+effacer-anymore.somebeat.com
+0 3 0 624 1 1479156873
+/
+220-135-169-228.hinet-ip.hinet.net
+0 1 0 193 1 1478075112
+/
+201-7-22-41.spopa302.dial.brasiltelecom.net.br
+0 64 55 1444191 1 1478793961
+/login
+crawl-66-249-79-140.googlebot.com
+0 1 0 376 1 1479096795
+/
+173.208.207.130
+0 3 0 606 1 1478962903
+/
+115.134.183.180
+0 1 0 193 1 1478694922
+/
+dsl-189-159-72-61-dyn.prod-infinitum.com.mx
+0 2 0 386 1 1478260946
+/
+r167-58-25-211.dialup.adsl.anteldata.net.uy
+0 1 0 193 1 1478559246
+/
+187.18.210.42
+0 13 7 430139 1 1478790614
+/register
+72.27.95.89
+0 1 0 193 1 1478020258
+/
+smtp19.take-tours.com
+0 1 0 202 1 1478679952
+/
+231.148.255.138.clicfacilitb.com.br
+0 1 0 208 1 1479051147
+/
+107-131-121-43.lightspeed.sntcca.sbcglobal.net
+0 1 0 193 1 1478653162
+/
+78.182.38.186.dynamic.ttnet.com.tr
+0 1 0 193 1 1478048114
+/
+3b.80.01a8.ip4.static.sl-reverse.com
+0 1 0 193 1 1478747235
+/
+1634-yep.godlyhem.net
+0 3 0 618 1 1479199167
+/
+191-255-228-51.dsl.telesp.net.br
+0 1 0 193 1 1478333257
+/
+bacd08ba.virtua.com.br
+0 5 0 1066 1 1478258128
+-
+host164-92-static.58-79-b.business.telecomitalia.it
+0 1 0 193 1 1478049279
+/
+212.143.148.43
+0 1 0 193 1 1478103358
+/
+177.54.150.26
+0 52 30 893233 1 1478791683
+/
+181.188.11.140
+0 1 0 193 1 1478021400
+/
+host155-96-static.3-79-b.business.telecomitalia.it
+0 1 0 193 1 1478116158
+/
+adsl-99-75-126-134.dsl.rcsntx.sbcglobal.net
+0 1 0 193 1 1478070005
+/
+175.143.17.103
+0 1 0 193 1 1478052901
+/
+114-35-107-174.hinet-ip.hinet.net
+0 1 0 193 1 1478101255
+/
+84.95.202.53.forward.012.net.il
+0 1 0 193 1 1478131585
+/
+179.190.116.8
+0 45 34 1306733 1 1478789669
+/leads
+b1234b4c.virtua.com.br
+0 44 28 1715298 1 1478636332
+/
+60.52.127.102
+0 1 0 193 1 1478076525
+/
+189-041-082-235.xd-dynamic.algarnetsuper.com.br
+0 982 691 27729450 6 1478020792
+/leads
+47.34.165.60.dail.lz.gs.dynamic.163data.com.cn
+0 1 0 0 1 1478204212
+-
+c-73-183-176-113.hsd1.tx.comcast.net
+0 1 0 193 1 1478122475
+/
+115.135.0.120
+0 1 0 193 1 1478272603
+/
+93.107.166.95
+0 1 0 193 1 1478212516
+/
+116.102.68.179
+0 1 0 193 1 1478105611
+/
+78.172.143.122.dynamic.ttnet.com.tr
+0 1 0 193 1 1478407184
+/
+ip230.208-100-26.static.steadfastdns.net
+0 7 0 1177 2 1479188861
+/
+61-216-2-13.hinet-ip.hinet.net
+0 2 0 404 1 1478509362
+/
+189-041-039-195.xd-dynamic.algarnetsuper.com.br
+0 5 3 415601 1 1478223832
+/login
+isdn-kbu-219-107.tm.net.my
+0 1 0 193 1 1478181518
+/
+host227-196-dynamic.20-79-r.retail.telecomitalia.it
+0 1 0 193 1 1478061266
+/
+bfb54bc6.virtua.com.br
+0 4 0 851 1 1479070680
+/
+dsl-189-173-94-148-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478093800
+/
+201.143.219.106.dsl.dyn.telnor.net
+0 1 0 193 1 1478084906
+/
+56.163.72-94.rev.maxtelecom.bg
+0 1 0 193 1 1478067168
+/
+crawl-66-249-65-68.googlebot.com
+0 4 4 419791 1 1478686536
+/register
+google-proxy-66-249-88-37.google.com
+0 1 1 4077 1 1478788803
+/login
+crawl-66-249-64-68.googlebot.com
+0 1 1 119080 0 0
+-
+189.63.69.209
+0 5 0 1066 1 1478466332
+-
+broadband.time.net.my
+0 1 0 193 1 1478413770
+/
+82-76-50-164.rdsnet.ro
+0 1 0 193 1 1478038287
+/
+localhost
+0 7 0 1351 5 1478692530
+/
+m2767.contabo.host
+0 2 0 10268 1 1478832703
+-
+host193-15-static.1-79-b.business.telecomitalia.it
+0 1 0 193 1 1478209008
+/
+b1b6324e.virtua.com.br
+0 5 4 417792 1 1478801312
+/login
+crawl-66-249-65-114.googlebot.com
+0 1 0 212 1 1478686447
+/
+wsip-24-248-85-77.ph.ph.cox.net
+0 1 0 193 1 1478680476
+/
+188.poyrazhost.com
+0 3 0 645 0 0
+-
+patternillustration.net
+0 3 0 618 1 1478773726
+/
+dynamic-37-142-119-205.hotnet.net.il
+0 1 0 193 1 1478042729
+/
+google-proxy-66-249-88-39.google.com
+0 1 1 294259 0 0
+-
+118-163-116-97.hinet-ip.hinet.net
+0 1 0 193 1 1478099233
+/
+213.128.81.66
+0 1 0 193 1 1478932903
+/
+177.223.13.11.itanet.psi.br
+0 12 7 430427 2 1478689725
+/login
+google-proxy-66-102-8-193.google.com
+0 2 2 123157 1 1478788802
+/login
+196.52.43.55
+0 1 0 352 1 1478698192
+/
+dsl-187-133-174-22-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478071598
+/
+121.121.92.182
+0 1 0 193 1 1478479913
+/
+5ac15f12.bb.sky.com
+0 1 0 193 1 1478097814
+/
+5.144.50.60.brk01-home.tm.net.my
+0 1 0 193 1 1478057093
+/
+host-182.204-14-119.dynamic.totalbb.net.tw
+0 1 0 193 1 1478116455
+/
+rrcs-173-198-43-165.west.biz.rr.com
+0 1 0 193 1 1478564840
+/
+186-210-209-247.xd-dynamic.algarnetsuper.com.br
+0 1 0 10019 0 0
+-
+220-134-155-7.hinet-ip.hinet.net
+0 1 0 193 1 1478067660
+/
+mail.lugat.co.il
+0 1 0 193 1 1478124788
+/
+114-33-8-252.hinet-ip.hinet.net
+0 1 0 193 1 1478048471
+/
+177.43.37.140.static.gvt.net.br
+0 11 7 431151 1 1478789692
+/login
+google-proxy-66-249-88-35.google.com
+0 1 1 119080 0 0
+-
+pool-98-113-196-61.nycmny.fios.verizon.net
+0 1 0 193 1 1478057706
+/
+63.141.250.156
+0 3 0 618 1 1479149292
+/
+180.150.178.125
+0 1 0 217 0 0
+-
+59-127-142-224.hinet-ip.hinet.net
+0 1 0 193 1 1478038948
+/
+116.109.72.93
+0 1 0 193 1 1478084397
+/
+61-227-242-123.dynamic.hinet.net
+0 1 0 193 1 1478105464
+/
+c-73-146-122-54.hsd1.in.comcast.net
+0 1 0 193 1 1478122715
+/
+axon-mainframe.centeropen.com
+0 3 0 618 1 1478961314
+/
+187-6-113-54.gnace704.dsl.brasiltelecom.net.br
+0 14 9 438146 1 1478822435
+/login
+48.red-2-137-218.dynamicip.rima-tde.net
+0 1 0 193 1 1478311476
+/
+233-24-201-123.static.youbroadband.in
+0 1 0 193 1 1478074790
+/
+adsl-lns1-l1895.crnagora.net
+0 2 0 386 1 1478147725
+/
+101.red-2-137-31.dynamicip.rima-tde.net
+0 1 0 193 1 1478750595
+/
+191-211-236-225.user.vivozap.com.br
+0 51 43 1780818 1 1478635524
+/
+200.72.186.45
+0 1 0 193 1 1478127868
+/
+63.141.231.195
+0 3 0 606 1 1478858196
+/
+175.143.154.249
+0 1 0 193 1 1478025506
+/
+46-117-251-176.bb.netvision.net.il
+0 1 0 193 1 1478043660
+/
+isdn-kbu-250-34.tm.net.my
+0 1 0 193 1 1478519970
+/
+177-105-132-244.life.com.br
+0 1 0 193 1 1478683675
+/
+static-72-94-59-19.phlapa.fios.verizon.net
+0 1 0 193 1 1479183956
+/
+63.141.231.194
+0 3 0 618 1 1478869170
+/
+host-92-26-242-16.as13285.net
+0 1 0 193 1 1478042896
+/
+123-195-152-110.dynamic.kbronet.com.tw
+0 1 0 193 1 1478026255
+/
+crawl-66-249-65-73.googlebot.com
+0 2 2 4643 1 1478686633
+/login
+5f44b86c.dynamic.mv.ru
+0 2 0 386 2 1479135515
+/
+64-16-214-100.static.sagonet.net
+0 1 0 202 0 0
+-
+144.140.230.77
+0 1 0 193 1 1479011905
+/
+125.21.196.182
+0 1 0 208 1 1479155337
+/
+scan-07.shadowserver.org
+0 3 0 1056 3 1479029514
+/
+bas1-windsor14-70-50-62-69.dsl.bell.ca
+0 1 0 193 1 1478216517
+/
+node-coi-90.markingchoice.com
+0 3 0 615 1 1479146821
+/
+189-041-138-93.xd-dynamic.algarnetsuper.com.br
+0 4 3 415423 1 1478421260
+/login
+180-176-109-138.dynamic.kbronet.com.tw
+0 1 0 193 1 1478116301
+/
+202.138.242.109
+0 1 0 193 1 1478060758
+/
+dsl-187-131-107-159-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478080699
+/
+59-127-151-206.hinet-ip.hinet.net
+0 1 0 193 1 1478079702
+/
+114-33-245-4.hinet-ip.hinet.net
+0 1 0 193 1 1478053232
+/
+113-61-220-93.veetime.com
+0 1 0 193 1 1478024610
+/
+106.1.112.229
+0 1 0 193 1 1478354163
+/
+host86-137-98-96.range86-137.btcentralplus.com
+0 1 0 193 1 1478047056
+/
+c-73-200-40-48.hsd1.dc.comcast.net
+0 1 0 193 1 1478084573
+/
+62-210-181-161.rev.poneytelecom.eu
+0 1 0 0 0 0
+-
+node-coi-99.markingchoice.com
+0 3 0 624 1 1479026583
+/
+dsl-201-153-48-108-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478125961
+/
+177-38-114-6.serv-popch.tmw.net.br
+0 1 0 193 1 1478065826
+/
+189-041-110-92.xd-dynamic.algarnetsuper.com.br
+0 4 3 415425 1 1478028890
+/login
+zvps24.zvps.co.uk
+0 1 0 267 1 1478824525
+-
+toroon0952w-lp130-04-65-95-118-177.dsl.bell.ca
+0 1 0 193 1 1478032350
+/
+125-227-19-12.hinet-ip.hinet.net
+0 1 0 372 1 1478016471
+/
+211.144.157.50
+0 2 0 430 2 1479017669
+-
+c-98-195-186-12.hsd1.tx.comcast.net
+0 1 0 193 1 1478110734
+/
+179-237-22-242.user3g.veloxzone.com.br
+0 48 39 1503421 1 1478677283
+/ponto-partida
+bl12-141-84.dsl.telepac.pt
+0 8 5 422457 1 1478792322
+/login
+researchscan271.eecs.umich.edu
+0 3 1 5120 1 1478598036
+/login
+50-245-90-137-static.hfc.comcastbusiness.net
+0 1 0 193 1 1478032823
+/
+host-79-79-48-10.static.as13285.net
+0 1 0 193 1 1478127837
+/
+google-proxy-66-102-8-223.google.com
+0 1 1 294259 0 0
+-
+1-34-181-65.hinet-ip.hinet.net
+0 1 0 193 1 1478092991
+/
+196.52.43.54
+0 1 0 193 1 1478521019
+/
+123-195-113-224.dynamic.kbronet.com.tw
+0 1 0 193 1 1478250716
+/
+159.203.4.15
+0 1 1 4562 1 1478431285
+/login
+crawl-66-249-79-144.googlebot.com
+0 1 1 4166 1 1479096795
+/login
+researchscan335.eecs.umich.edu
+0 2 1 4907 1 1478018427
+/login
+220-135-68-152.hinet-ip.hinet.net
+0 1 0 193 1 1479198092
+/
+210.195.170.4
+0 1 0 193 1 1478070449
+/
+186-210-098-32.xd-dynamic.algarnetsuper.com.br
+0 69 35 1601459 2 1478635049
+/
+host81-140-239-37.range81-140.btcentralplus.com
+0 1 0 193 1 1478532059
+/
+190-184-136-112.telebucaramanga.net.co
+0 1 0 193 1 1478028523
+/
+177.205.92.67.dynamic.adsl.gvt.net.br
+0 1 0 208 1 1478975046
+/
+smtp84.take-tours.com
+0 3 0 606 1 1479193343
+/
+1-34-55-6.hinet-ip.hinet.net
+0 1 0 193 1 1478142693
+/
+212.92.127.172
+0 3 1 5120 1 1478589542
+/login
+abts-north-dynamic-114.230.96.117.airtelbroadband.in
+0 1 0 193 1 1478100055
+/
+server204.190.itcsa.net
+0 1 0 193 1 1479032490
+/
+1-34-1-6.hinet-ip.hinet.net
+0 1 0 193 1 1478573039
+/
+200-203-16-113.paemt706.dsl.brasiltelecom.net.br
+0 17 10 444445 1 1478803498
+/login
+238.11.162.191.isp.timbrasil.com.br
+0 434 247 9641229 2 1478020926
+/login
+91.197.234.20
+0 1 0 202 1 1478491206
+/
+117.247.245.197
+0 1 0 193 1 1478100785
+/
+b5dedfc7.virtua.com.br
+0 26 24 915078 1 1478763319
+/leads/novo
+49-159-130-68.dynamic.elinx.com.tw
+0 1 0 193 1 1478289307
+/
+59-125-68-157.hinet-ip.hinet.net
+0 1 0 193 1 1479012048
+/
+179-66-64-96.user3g.veloxzone.com.br
+0 6 3 85005 1 1478770548
+/leads/44/editelead
+ec2-54-249-83-55.ap-northeast-1.compute.amazonaws.com
+0 1 0 202 1 1478099798
+-
+175.141.192.40
+0 1 0 193 1 1478272298
+/
+186-210-206-132.xd-dynamic.algarnetsuper.com.br
+0 134 86 3179029 3 1478536823
+/leads/33/editelead
+61-62-213-28-adsl-tao.dynamic.so-net.net.tw
+0 1 0 193 1 1478372505
+/
+212.143.153.206
+0 1 0 193 1 1478076287
+/
+clients-pools.pl.cooolbox.bg
+0 2 0 404 2 1478570983
+/
+c-50-181-138-230.hsd1.wa.comcast.net
+0 1 0 193 1 1478147190
+/
+scan-05.shadowserver.org
+0 1 0 352 1 1478572448
+/
+137.116.71.170
+0 2 2 48 0 0
+-
+185.65.252.7
+0 1 0 208 1 1479164473
+/
+179-240-165-41.3g.claro.net.br
+0 5 3 415762 1 1478640057
+/login
+ns2.esal.com.br
+0 9 5 422240 1 1478790193
+/login
+smtp46.take-tours.com
+0 2 0 416 1 1479007746
+/
+dsl-187-200-222-52-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478101078
+/
+dsl-189-243-202-56-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478211354
+/
+117.215.250.58
+0 1 0 193 1 1478073379
+/
+c-73-175-230-45.hsd1.pa.comcast.net
+0 1 0 372 1 1478016472
+/
+host86-131-23-96.range86-131.btcentralplus.com
+0 1 0 193 1 1478199602
+/
+abts-north-dynamic-084.0.173.122.airtelbroadband.in
+0 1 0 193 1 1478371724
+/
+201-8-15-98.user.veloxzone.com.br
+0 1 0 208 1 1479202628
+/
+119.29.20.238
+0 3 0 645 0 0
+-
+google-proxy-66-249-88-58.google.com
+0 1 0 212 1 1478801310
+/
+c-98-200-156-100.hsd1.tx.comcast.net
+0 1 0 193 1 1478142456
+/
+host-197.50.74.163.tedata.net
+0 1 0 193 1 1478072179
+/
+123-195-224-141.dynamic.kbronet.com.tw
+0 1 0 193 1 1478115664
+/
+220-133-157-77.hinet-ip.hinet.net
+0 1 0 193 1 1478136882
+/
+59-127-29-99.hinet-ip.hinet.net
+0 1 0 193 1 1478703758
+/
+220-135-217-223.hinet-ip.hinet.net
+0 1 0 193 1 1478605919
+/
+200-98-112-153.clouduol.com.br
+0 2 0 386 2 1478509931
+/
+118.193.241.207
+0 1 0 206 1 1478184919
+/
+212.92.127.143
+0 1 0 193 1 1479032905
+/
+format-mail-107.centeropen.com
+0 3 0 624 1 1479150881
+/
+h38.136.143.40.ip.windstream.net
+0 2 0 0 1 1478241258
+/
+186-210-215-174.xd-dynamic.algarnetsuper.com.br
+0 148 105 4863886 6 1478878668
+/login
+pool-96-241-65-159.washdc.fios.verizon.net
+0 1 0 193 1 1478089695
+/
+eugeneford.clientshostname.com
+0 1 0 208 1 1478505955
+/
+220-133-158-64.hinet-ip.hinet.net
+0 1 0 193 1 1478061215
+/
+199.30.228.142
+0 2 0 588 1 1479197412
+/
+131.214.12.200.clarocom.com
+0 2 0 0 1 1479133384
+/
+78.188.233.60.dynamic.ttnet.com.tr
+0 1 0 193 1 1478078572
+/
+census10.shodan.io
+0 3 0 637 1 1478200678
+/
+gauji.com.tw
+0 1 0 193 1 1478065708
+/
+187-163-190-187.static.axtel.net
+0 1 0 193 1 1478039000
+/
+c-68-81-102-34.hsd1.pa.comcast.net
+0 1 0 193 1 1478131273
+/
+201-5-80-245.user3g.veloxzone.com.br
+0 21 10 353135 1 1478768152
+/leads
+183.129.160.229
+0 3 0 760 2 1479196838
+/
+175.139.25.50
+0 1 0 193 1 1478174354
+/
+c-66-229-193-41.hsd1.fl.comcast.net
+0 6 0 1158 1 1478214468
+/
+181.48.15.227
+0 1 0 215 1 1478282889
+-
+adsl-108-78-239-236.dsl.hstntx.sbcglobal.net
+0 1 0 193 1 1478085047
+/
+220-128-243-98.hinet-ip.hinet.net
+0 1 0 193 1 1478142317
+/
+census6.shodan.io
+0 5 1 5125 2 1478972948
+/login
+client-85-120-79-101.alienstation.ro
+0 1 0 193 1 1478230258
+/
+201.171.35.198.dsl.dyn.telnor.net
+0 1 0 193 1 1478080910
+/
+199.30.228.132
+0 1 1 4166 1 1479197413
+/login
+185.49.59.98
+0 1 0 193 1 1478051402
+/
+1-34-92-119.hinet-ip.hinet.net
+0 1 0 193 1 1478897325
+/
+dsl-187-228-25-23-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478172023
+/
+nts-229.186-167-216.static.nts-online.net
+0 1 0 193 1 1478950748
+/
+46.50.31.56
+0 1 0 372 1 1478018122
+/
+5.red-81-43-103.staticip.rima-tde.net
+0 1 0 193 1 1478274296
+/
+139.100.66.189.isp.timbrasil.com.br
+0 5 3 417589 1 1478710021
+/login
+burger.census.shodan.io
+0 3 0 637 1 1478200647
+/
+61.49.45.43
+0 13 1 66099 1 1478675166
+-
+189-041-109-182.xd-dynamic.algarnetsuper.com.br
+0 246 177 8863799 2 1478278999
+/leads/novo
+c-50-143-12-241.hsd1.fl.comcast.net
+0 1 0 193 1 1478493272
+/
+162.243.112.22
+0 1 0 207 1 1479112302
+/
+oldse.resenced.com
+0 3 0 618 1 1479055681
+/
+static.109.226.22.242.ccc.net.il
+0 1 0 193 1 1478048326
+/
+212-129-52-211.rev.poneytelecom.eu
+0 6 0 1290 1 1478199465
+-
+crawl-66-249-69-163.googlebot.com
+0 3 2 7682 1 1478838013
+/register
+60-251-228-206.hinet-ip.hinet.net
+0 3 0 579 1 1478074508
+/
+120-88-152-6.tpgi.com.au
+0 1 0 193 1 1478167595
+/
+177-176-247-227.user3g.veloxzone.com.br
+0 1 0 212 1 1478678955
+/
+92-249-150-191.static.digikabel.hu
+0 1 0 193 1 1478124151
+/
+220-133-86-69.hinet-ip.hinet.net
+0 1 0 193 1 1479136635
+/
+researchscan319.eecs.umich.edu
+0 3 1 4694 1 1478868692
+/login
+host5.186-153-192.telecom.net.ar
+0 1 0 193 1 1478037400
+/
+crawl-66-249-79-166.googlebot.com
+0 2 0 434 1 1479096794
+/
+104.236.222.79
+0 1 0 206 1 1478431284
+/
+census1.shodan.io
+0 13 4 25417 4 1478581775
+/
+246-141-114-200.fibertel.com.ar
+0 1 0 193 1 1478171605
+/
+frankrose.clientshostname.com
+0 1 0 216 1 1478527315
+/
+189-041-136-140.xd-dynamic.algarnetsuper.com.br
+0 33 26 1257781 1 1478629877
+/leads
+79-65-27-42.host.pobb.as13285.net
+0 1 0 193 1 1478508941
+/
+168-194-192-2.painsonline.com.br
+0 48 24 1172482 2 1479121225
+/ponto-partida
+189-104-177-50.user3g.veloxzone.com.br
+0 40 32 1784731 1 1478179992
+/login
+540001be.dsl.pool.telekom.hu
+0 1 0 193 1 1478105091
+/
+cpc1-enfi22-2-0-cust137.20-2.cable.virginm.net
+0 1 0 193 1 1478989037
+/
+scan-02.shadowserver.org
+0 1 0 352 1 1478328173
+/
+dsl-189-172-191-64-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478748331
+/
+169-0-206-41.ip.afrihost.co.za
+0 1 0 193 1 1478821494
+/
+c-73-141-227-177.hsd1.de.comcast.net
+0 1 0 193 1 1478057264
+/
+scan-01.shadowserver.org
+0 2 0 704 2 1478770504
+/
+no-reverse-dns-configured.com
+0 4 0 876 2 1479117056
+-
+186-210-193-40.xd-dynamic.algarnetsuper.com.br
+0 2 1 5006 1 1478029594
+/login
+162.243.5.155
+0 1 0 352 1 1478431284
+/
+186.179.237.62
+0 1 0 193 1 1478865778
+/
+189-041-080-85.xd-dynamic.algarnetsuper.com.br
+0 80 38 1736075 2 1478135374
+/leads/novo
+101.200.183.71
+0 1 0 206 1 1479032885
+/
+1-34-200-97.hinet-ip.hinet.net
+0 1 0 193 1 1478084565
+/
+dsl-187-234-96-230-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478090547
+/
+225-134-212-178.vdnet.ru
+0 1 0 193 1 1478260862
+/
+c-69-253-24-121.hsd1.de.comcast.net
+0 1 0 193 1 1478203009
+/
+114-33-164-173.hinet-ip.hinet.net
+0 1 0 193 1 1478662446
+/
+host-89-242-13-228.static.as13285.net
+0 1 0 193 1 1478027758
+/
+crawl-66-249-64-110.googlebot.com
+0 2 0 434 1 1478945646
+/
+180-177-186-162.dynamic.kbronet.com.tw
+0 1 0 193 1 1478198471
+/
+bbb720c3.virtua.com.br
+0 11 7 430402 1 1478796138
+/login
+189-015-184-1.xd-dynamic.algarnetsuper.com.br
+0 1 0 193 1 1478525969
+/
+bd7b92ca.virtua.com.br
+0 5 0 1066 1 1478871310
+-
+crawl-66-249-64-73.googlebot.com
+0 2 2 4190 1 1478945648
+/login
+192.40.89.10
+0 1 0 206 1 1478748527
+/
+hrz-204-129.access.net.il
+0 1 0 193 1 1479047797
+/
+google-proxy-66-249-85-28.google.com
+0 2 0 424 2 1478689723
+/
+177.40.101.102.static.host.gvt.net.br
+0 1 0 193 1 1478075841
+/
+175.140.106.11
+0 1 0 193 1 1478236486
+/
+88.148.84.25
+0 1 0 208 1 1478115035
+/
+94.42.112.10
+0 3 1 4714 1 1478927555
+/login
+census7.shodan.io
+0 3 0 637 1 1478200653
+/
+177-155-162-147.vegastelecom.com.br
+0 1 0 208 1 1479171188
+/
+117.197.144.128
+0 1 0 193 1 1478088270
+/
+175.143.170.19
+0 1 0 193 1 1478036904
+/
+59.97.68.126
+0 2 0 386 1 1478084342
+/
+1-34-65-182.hinet-ip.hinet.net
+0 1 0 193 1 1478079111
+/
+1-34-82-30.hinet-ip.hinet.net
+0 1 0 193 1 1478043092
+/
+123.63.194.179
+0 1 0 193 1 1478173692
+/
+114-35-119-159.hinet-ip.hinet.net
+0 1 0 193 1 1478073275
+/
+61.61.224.237
+0 1 0 372 1 1478016435
+/
+219-85-83-194-adsl-tpe.static.so-net.net.tw
+0 1 0 193 1 1478046455
+/
+mail-for724-write.somebeat.com
+0 3 0 618 1 1479020454
+/
+blackholed.org
+0 12 0 2580 1 1478372973
+-
+esx.jbp.fr
+0 2 0 430 0 0
+-
+cpe-172-249-79-178.socal.res.rr.com
+0 5 0 965 1 1478043423
+/
+189-104-199-51.user3g.veloxzone.com.br
+0 49 7 183354 1 1478171684
+/leads
+host86-161-118-80.range86-161.btcentralplus.com
+0 1 0 193 1 1478418350
+/
+163-172-200-111.rev.poneytelecom.eu
+0 5 1 14948 1 1478971154
+-
+chap-cook.somebeat.com
+0 3 0 618 1 1478774078
+/
+144.57.171.191.isp.timbrasil.com.br
+0 1 1 85578 0 0
+-
+191.pool92-186-190.dynamic.orange.es
+0 1 0 193 1 1478472034
+/
+201.171.242.142.dsl.dyn.telnor.net
+0 1 0 193 1 1478895289
+/
+173.209.174.59.nwinternet.com
+0 1 0 193 1 1478037445
+/
+179-104-221-204.xd-dynamic.algarnetsuper.com.br
+0 5 2 9188 2 1478100696
+/login
+rrcs-67-53-232-126.west.biz.rr.com
+0 1 0 193 1 1478172691
+/
+123-193-146-123.dynamic.kbronet.com.tw
+0 1 0 193 1 1478474114
+/
+79-115-185-23.rdsnet.ro
+0 1 0 193 1 1478125163
+/
+host81-130-169-170.in-addr.btopenworld.com
+0 1 0 193 1 1478527230
+/
+103.253.87.2
+0 1 0 208 1 1478618701
+/
+177-176-32-252.user3g.veloxzone.com.br
+0 71 26 819352 1 1478177721
+/leads
+c9351b7c.virtua.com.br
+0 5 0 1066 1 1478068310
+-
+201.143.56.28.dsl.dyn.telnor.net
+0 1 0 193 1 1478072009
+/
+187.63.100.248
+0 14 8 436999 1 1478635117
+/login
+crawl-66-249-79-148.googlebot.com
+0 2 2 48 0 0
+-
+dsl-189-155-118-177-dyn.prod-infinitum.com.mx
+0 1 0 193 1 1478076819
+/
+taurap.youngmapanes.com
+0 3 0 615 1 1478665698
+/
+108-190-36-110.biz.bhn.net
+0 1 0 372 1 1478016249
+/
+187-52-94-236.gnace703.e.brasiltelecom.net.br
+0 6 4 418133 1 1478864078
+/login
+junk-designed.centeropen.com
+0 3 0 618 1 1478764560
+/
+121.197.10.89
+0 3 0 645 0 0
+-
+c-76-108-241-192.hsd1.fl.comcast.net
+0 1 0 193 1 1478778371
+/
+201-77-118-242.static.desktop.com.br
+0 1 0 193 1 1478198881
+/
+scan-11.shadowserver.org
+0 2 0 704 2 1478830166
+/
+69.30.227.218
+0 3 0 621 1 1479154153
+/
+b5ded4c9.virtua.com.br
+0 27 5 71129 1 1478855595
+/leads
+100.23.177.41.myadslip.net
+0 1 0 193 1 1478154908
+/
+59-126-239-2.hinet-ip.hinet.net
+0 1 0 193 1 1478071990
+/
+crawl-66-249-64-124.googlebot.com
+0 2 1 400 1 1478945647
+/
+201-58-242-205.user3g.veloxzone.com.br
+0 49 44 1838276 1 1478017309
+/leads/novo
+212.92.127.201
+0 3 1 5120 1 1478477598
+/login
+adsl.viettel.vn
+0 1 0 193 1 1478046425
+/
+191.142.205.232
+0 28 3 58839 1 1478676088
+/ponto-partida
+179-104-200-73.xd-dynamic.algarnetsuper.com.br
+0 480 343 16372908 5 1478798836
+/ponto-partida
+108-219-13-185.lightspeed.mtryca.sbcglobal.net
+0 1 0 193 1 1479102864
+/
+crawl-66-249-65-106.googlebot.com
+0 1 0 222 0 0
+-
+179-228-165-104.user.vivozap.com.br
+0 1 0 193 1 1478135963
+/
+pirate.census.shodan.io
+0 6 1 5553 1 1478200651
+/
+c-73-1-250-73.hsd1.fl.comcast.net
+0 1 0 193 1 1478280520
+/
+181.49.129.201
+0 1 0 193 1 1478958990
+/
+ns.rejk-net.sk
+0 1 0 0 0 0
+-
+78.10.175.202
+0 1 0 193 1 1478042766
+/
+31.13.146.14
+0 1 0 193 1 1478065762
+/
+ignorable-goatee.centeropen.com
+0 3 0 618 1 1479198806
+/
+cust-101.211.102.5.018.net.il
+0 1 0 193 1 1478060368
+/
+crawl-66-249-69-166.googlebot.com
+0 1 1 4077 1 1478837923
+/login
+dynamic.ip.77.69.207.164.batelco.com.bh
+0 1 0 193 1 1479095088
+/
+rtr-cri-gw-01.dhonline.com.br
+0 2 0 568 1 1478986456
+/
+net-176-65-89.as196983.elsynet.net
+0 1 0 193 1 1478789195
+/
+180.97.106.37
+0 1 0 202 1 1478098978
+/
+60.198.81.187.isp.timbrasil.com.br
+0 27 5 83981 1 1478632142
+/leads/novo
+211.157.19.82
+0 1 0 0 1 1478128645
+-
+1-34-19-35.hinet-ip.hinet.net
+0 1 0 193 1 1478111655
+/
+42.114.63.45
+0 1 0 193 1 1478181109
+/
+235.240.81.187.isp.timbrasil.com.br
+0 23 1 53792 1 1478779567
+/
+115.135.40.65
+0 1 0 193 1 1478052750
+/
+190.83.254.81
+0 2 0 386 1 1478891867
+/
+120.25.166.199
+0 3 0 645 0 0
+-
+li855-205.members.linode.com
+0 7 0 2026 7 1479133174
+/
+186-88-180-182.genericrev.cantv.net
+0 1 0 193 1 1478504175
+/
+ec2-54-206-127-149.ap-southeast-2.compute.amazonaws.com
+0 1 0 376 1 1478727541
+/
+95.144.116.72
+0 2 0 386 2 1478355482
+/
+125-227-18-111.hinet-ip.hinet.net
+0 1 0 193 1 1478042618
+/
+ec2-52-77-212-217.ap-southeast-1.compute.amazonaws.com
+0 1 0 206 1 1478696766
+/
+b5df271c.virtua.com.br
+0 3 0 579 1 1478184108
+/
+static-71-177-87-194.lsanca.dsl-w.frontiernet.net
+0 1 0 193 1 1478048443
+/
+1-34-251-61.hinet-ip.hinet.net
+0 1 0 193 1 1478072794
+/
+host58-8-dynamic.43-79-r.retail.telecomitalia.it
+0 1 0 193 1 1478548086
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ip231.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188606
+/
+1634-yep.godlyhem.net
+0 3 0 618 1 1479199167
+/
+ip230.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188861
+/
+static-72-94-59-19.phlapa.fios.verizon.net
+0 1 0 193 1 1479183956
+/
+220-135-68-152.hinet-ip.hinet.net
+0 1 0 193 1 1479198092
+/
+smtp84.take-tours.com
+0 3 0 606 1 1479193343
+/
+201-8-15-98.user.veloxzone.com.br
+0 1 0 208 1 1479202628
+/
+199.30.228.142
+0 2 0 588 1 1479197412
+/
+183.129.160.229
+0 1 0 352 1 1479196838
+/
+199.30.228.132
+0 1 1 4166 1 1479197413
+/login
+177-155-162-147.vegastelecom.com.br
+0 1 0 208 1 1479171188
+/
+esx.jbp.fr
+0 1 0 215 0 0
+-
+ignorable-goatee.centeropen.com
+0 3 0 618 1 1479198806
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://proloconline.com.br/leads/5/editelead
+0 5
+https://proloconline.com.br/leads/26/editelead
+0 2
+http://www.proloconline.com.br/
+0 77
+https://proloconline.com.br/leads/28/editelead
+0 2
+http://173.44.46.117/
+0 2
+173.44.46.117
+0 3
+http://www.proloconline.com.br/leads/novo
+0 151
+http://www.proloconline.com.br/login
+0 18
+http://www.google.com/url
+0 2
+https://proloconline.com.br/leads/45/editelead
+0 2
+https://proloconline.com.br/leads/43/editelead
+0 2
+https://proloconline.com.br/leads/77/49/inativarleadhistorico
+0 1
+https://proloconline.com.br/login
+0 455
+https://proloconline.com.br/leads/72/45/inativarleadhistorico
+0 4
+http://www.google.com/search
+0 1
+https://www.google.com.br/
+0 4
+https://proloconline.com.br/leads/48/editelead
+0 2
+https://proloconline.com.br/leads/salvarlead
+0 9
+https://proloconline.com.br/index.php/login
+0 7
+https://www.proloconline.com.br/register
+0 10
+https://www.proloconline.com.br/index.php/login
+0 3
+http://173.44.46.117:80/
+0 3
+https://www.proloconline.com.br/leads/salvarlead
+0 3
+https://proloconline.com.br/leads/42/editelead
+0 2
+https://proloconline.com.br/leads/76/48/inativarleadhistorico
+0 2
+https://proloconline.com.br/arq/bootstrap/dist/css/bootstrap.min.css
+0 49
+http://173.44.46.117/phpmyadmin
+0 3
+https://www.proloconline.com.br/leads/novo
+0 323
+- (Direct Request)
+0 1074
+https://proloconline.com.br/index.php
+0 17
+https://proloconline.com.br/leads/novo
+0 403
+https://www.proloconline.com.br/leads/8/editelead
+0 1
+https://proloconline.com.br/leads/49/editelead
+0 5
+http://proloconline.com.br/register
+0 2
+http://proloconline.com.br/arq/font-awesome/css/font-awesome.min.css
+0 5
+https://proloconline.com.br/leads/15/editelead
+0 2
+https://www.proloconline.com.br/
+0 634
+https://proloconline.com.br/leads/44/editelead
+0 3
+https://proloconline.com.br/leads/71/44/inativarleadhistorico
+0 2
+https://proloconline.com.br/leads/34/editelead
+0 27
+http://proloconline.com.br/
+0 108
+https://proloconline.com.br/password/reset
+0 6
+https://proloconline.com.br/leads/79/51/inativarleadhistorico
+0 2
+https://proloconline.com.br/leads/36/editelead
+0 4
+https://proloconline.com.br/leads/68/41/inativarleadhistorico
+0 2
+https://proloconline.com.br/logout
+0 3
+http://proloconline.com.br/leads
+0 37
+https://proloconline.com.br/leads/41/editelead
+0 2
+http://proloconline.com.br/leads/novo
+0 21
+https://proloconline.com.br/arq/font-awesome/css/font-awesome.min.css
+0 69
+https://www.proloconline.com.br/arq/bootstrap/dist/css/bootstrap.min.css
+0 1
+https://proloconline.com.br/leads/69/42/inativarleadhistorico
+0 2
+https://www.proloconline.com.br/leads
+0 135
+https://proloconline.com.br/register
+0 35
+https://www.proloconline.com.br/password/reset
+0 1
+https://proloconline.com.br/leads
+0 240
+https://proloconline.com.br/leads/14/editelead
+0 1
+https://proloconline.com.br/leads/70/43/inativarleadhistorico
+0 2
+http://proloconline.com.br/login
+0 26
+http://www.proloconline.com.br/leads
+0 8
+https://www.proloconline.com.br/arq/font-awesome/css/font-awesome.min.css
+0 12
+https://www.proloconline.com.br/leads/9/editelead
+0 1
+https://proloconline.com.br/
+0 1050
+https://proloconline.com.br/leads/51/editelead
+0 2
+http://www.proloconline.com.br/leads/5/editelead
+0 3
+http://www.proloconline.com.br/leads/salvarlead
+0 2
+https://www.proloconline.com.br/leads/33/editelead
+0 2
+https://www.proloconline.com.br/login
+0 158
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 6
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 11
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 65
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+0 48
+curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.21 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+0 2
+Mozilla/5.0 (Linux; Android 4.1.2; LT22i Build/6.2.A.1.100) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobil
+0 38
+Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobil
+0 14
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 
+0 498
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 14
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 64
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+0 2
+PycURL/7.19.7
+0 4
+Telesphoreo
+0 1
+() { :;};echo; /bin/bash -c \" echo 2014 | md5sum\"
+0 1
+Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile S
+0 33
+CSS Certificate Spider (http://www.css-security.com/certificatespider/)
+0 2
+Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J105B Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 C
+0 5
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+0 3
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 310
+Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobi
+0 6
+Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile S
+0 442
+Mozilla/5.0 (compatible; Nmap Scripting Engine; http://nmap.org/book/nse.html)
+0 2
+Scanbot
+0 5
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/54.0.2840.66 Mobile/1
+0 357
+Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; Valve Steam GameOverlay/1476379980; ) AppleWebKit/537.36 (KHTML, like Gecko) 
+0 5
+Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1114) lik
+0 40
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 5.1; XT1033 Build/LPBS23.13-56-2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobi
+0 15
+Mozilla/5.0 zgrab/0.x
+0 10
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 1
+Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 719
+Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+0 8
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 GTB7.1
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 3
+MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0
+0 76
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+0 7
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 8
+Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
+0 5
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 
+0 32
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 3
+python-requests/2.11.1
+0 4
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+0 1
+curl/7.17.1 (mips-unknown-linux-gnu) libcurl/7.17.1 OpenSSL/0.9.8i zlib/1.2.3
+0 14
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36
+0 17
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 361
+Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 9
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36
+0 11
+WhatsApp/2.16.310 A
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.3
+0 71
+Opera/9.80 (X11; Linux x86_64) Presto/2.12.388 Version/12.16
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 12
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 9
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 1002
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 101
+Mozilla/3.0 (compatible; Indy Library)
+0 2
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J105B Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile S
+0 540
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+0 81
+curl/7.29.0
+0 1
+masscan/1.0 (https://github.com/robertdavidgraham/masscan)
+0 3
+Wget(linux)
+0 29
+# End Of Table - agents
+# -search strings- 
+free proxy checker
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

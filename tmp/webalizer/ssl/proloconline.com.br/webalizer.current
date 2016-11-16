@@ -1,0 +1,834 @@
+# Webalizer V2.23-05 Incremental Data - 11/15/2016 08:10:13
+2016 11 15 8 10 13
+4163 2653 113 82 55 46 118849051 1200 153 0
+5 3 524 1 15
+1057 711 28845988 8 136 13
+8 3 9766 4 4 4
+500 258 12100570 11 168 17
+247 180 9278124 3 63 4
+2 0 554 2 2 2
+8 4 421041 5 6 5
+137 87 3184285 4 47 6
+786 447 20658893 19 200 23
+301 207 9813788 14 94 16
+834 590 27378752 24 359 26
+204 130 5820836 11 86 15
+41 29 1307273 10 18 9
+3 1 4930 2 3 2
+28 5 18549 7 7 6
+7 1 5702 5 7 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+40 20 918476 16
+35 9 517801 13
+4 0 10972 4
+0 0 0 0
+12 9 20241 8
+10 3 10431 10
+6 0 11075 4
+228 137 6555930 84
+220 142 6101442 74
+110 35 1514536 34
+63 38 1354163 21
+100 46 2293399 32
+409 262 13099564 107
+443 344 16645580 182
+272 200 9372144 96
+250 127 5037738 85
+964 693 28909778 179
+551 319 12631215 106
+123 96 4707145 44
+152 75 4230902 57
+164 95 4489885 39
+6 3 416282 4
+1 0 352 1
+0 0 0 0
+0
+0
+0
+2653
+0
+0
+0
+0
+0
+14
+0
+2
+361
+0
+814
+0
+0
+0
+0
+0
+0
+301
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+0
+0
+0
+0
+# -urls- 
+/leads/26/editelead
+0 1 3417233155821823354 19528 0 0
+/css/app.css
+0 141 0 11554162 0 0
+/arq/Flot/jquery.flot.time.js
+0 105 0 847296 0 0
+/arq/bootstrap/dist/css/bootstrap.min.css.map
+0 8 0 3795358 0 0
+/arq/iCheck/icheck.min.js
+0 23 0 78896 0 0
+/js/datepicker/daterangepicker.js
+0 22 0 390315 0 0
+/register
+0 27 0 104321 0 1
+/leads/salvarleadhistorico
+0 4 0 649 0 1
+/arq/jqvmap/dist/jquery.vmap.js
+0 23 0 545088 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.woff
+0 6 0 452060 0 0
+/leads/44/editelead
+0 2 0 38573 0 0
+/leads/77/49/inativarleadhistorico
+0 1 0 18968 0 0
+/leads/76/48/inativarleadhistorico
+0 1 0 18958 0 0
+/build/css/custom.min.css
+0 137 0 6683366 0 0
+/password/reset
+0 8 0 28047 2 1
+/images/usuario/img-person.png
+0 87 0 77650 0 0
+/leads/5/editelead
+0 1 0 20106 0 0
+/build/js/geolocation.js
+0 29 0 35360 0 0
+/arq/jqvmap/examples/js/jquery.vmap.sampledata.js
+0 26 0 42948 0 0
+/arq/iCheck/skins/flat/green.css
+0 24 0 22389 0 0
+/leads/14/editelead
+0 1 0 19104 0 1
+/leads/72/45/inativarleadhistorico
+0 1 0 18999 0 0
+/arq/Flot/jquery.flot.resize.js
+0 105 0 241922 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.ttf
+0 1 0 152796 0 0
+/favicon.ico
+0 124 0 0 0 0
+/leads/34/editelead
+0 4 0 80565 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.woff2
+0 95 0 5271153 0 0
+/js/app.js
+0 134 0 27235018 0 0
+/leads/51/editelead
+0 1 0 19306 0 0
+/leads/68/41/inativarleadhistorico
+0 1 0 19006 0 0
+/leads/48/editelead
+0 1 0 19238 0 0
+/leads/79/51/inativarleadhistorico
+0 1 0 19026 0 0
+/arq/flot-spline/js/jquery.flot.spline.min.js
+0 23 0 28096 0 0
+/leads/15/editelead
+0 1 0 19434 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+0 5 0 117120 0 0
+/leads/novo
+0 147 0 2675700 4 6
+/leads/69/42/inativarleadhistorico
+0 1 0 19007 0 0
+/arq/skycons/skycons.js
+0 105 0 1369800 0 0
+/login
+0 257 0 1727959 29 9
+/leads/9/editelead
+0 1 0 19445 0 1
+/arq/font-awesome/css/font-awesome.min.css
+0 107 0 2266914 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.eot
+0 1 0 76518 0 0
+/arq/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js
+0 107 0 5108112 0 0
+/arq/gauge.js/dist/gauge.min.js
+0 23 0 285568 0 0
+/arq/jquery/dist/jquery.min.js
+0 106 0 6247194 0 0
+/leads/8/editelead
+0 1 0 21521 0 0
+/arq/fastclick/lib/fastclick.js
+0 23 0 415440 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+0 58 0 775204 0 0
+/leads/43/editelead
+0 1 0 19280 0 0
+/leads/28/editelead
+0 1 0 19040 0 0
+/ponto-partida
+0 29 0 464 1 3
+/leads/70/43/inativarleadhistorico
+0 1 0 19000 0 0
+/arq/Flot/jquery.flot.js
+0 106 0 8821145 0 0
+/arq/bootstrap/dist/js/bootstrap.min.js
+0 105 0 2654496 0 0
+/arq/bootstrap-progressbar/bootstrap-progressbar.min.js
+0 23 0 37328 0 0
+/arq/flot.curvedlines/curvedLines.js
+0 23 3345164567506477677 261408 0 0
+/
+0 165 5774447 1956104 112 18
+/leads/45/editelead
+0 1 32196098889048878 19279 0 0
+/leads/salvarlead
+0 8 378411878401 105042 1 0
+/leads/71/44/inativarleadhistorico
+0 1 3760003449085820928 18995 0 0
+/leads/42/editelead
+0 1 7496238 19287 0 0
+/images/img.jpg
+0 100 3256155522653632305 289467 0 0
+/arq/Flot/jquery.flot.stack.js
+0 104 4064898885934383104 510480 0 0
+/arq/DateJS/build/date.js
+0 23 8030588203703349296 2063264 0 0
+/arq/jqvmap/dist/jqvmap.min.css
+0 23 0 10557 0 0
+/leads/33/editelead
+0 1 0 19833 0 0
+/arq/nprogress/nprogress.js
+0 23 0 185040 0 0
+/leads/41/editelead
+0 1 0 19286 0 0
+/arq/bootstrap-progressbar/css/bootstrap-progressbar.css
+0 23 0 85238 0 0
+/js/moment/moment.min.js
+0 22 0 521055 0 0
+/robots.txt
+0 10 0 240 0 0
+/arq/jqvmap/dist/maps/jquery.vmap.world.js
+0 26 974762786772487656 1090782 0 0
+/arq/Flot/jquery.flot.pie.js
+0 106 304560632160650383 1697865 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+0 1 0 20127 0 0
+/arq/nprogress/nprogress.css
+0 23 0 24786 0 0
+/arq/Chart.js/dist/Chart.min.js
+0 23 0 2354704 0 0
+/leads
+0 133 3543609846369812480 3062729 3 6
+/arq/bootstrap/dist/css/bootstrap.min.css
+0 108 7885630523470276463 9574800 0 0
+/arq/flot.orderbars/js/jquery.flot.orderBars.js
+0 23 1836016430 110704 0 0
+/build/js/custom.min.js
+0 129 3761118349668215927 601922 0 0
+/leads/49/editelead
+0 2 3330750789545506305 38496 0 0
+/leads/36/editelead
+0 1 8030812521221732660 19339 0 0
+# End Of Table - urls
+# -sites- (monthly)
+221.4.220.93
+0 2 1 4578 1 1479046194
+/
+70.111.82.187.isp.timbrasil.com.br
+0 35 12 430141 2 1478184838
+/leads
+186-210-110-113.xd-dynamic.algarnetsuper.com.br
+0 216 143 6695253 5 1478194069
+/leads/novo
+186-210-198-38.xd-dynamic.algarnetsuper.com.br
+0 394 223 9681255 5 1478625636
+/login
+186-210-204-144.xd-dynamic.algarnetsuper.com.br
+0 189 152 7207599 4 1478702684
+/login
+187-127-73-53.user.veloxzone.com.br
+0 16 11 867234 2 1478793555
+/password/reset
+178.162.205.27
+0 1 0 352 1 1478913553
+/
+189-041-081-41.xd-dynamic.algarnetsuper.com.br
+0 7 3 127076 1 1478715929
+/login
+200-163-173-126.nhoce200.dial.brasiltelecom.net.br
+0 38 32 1663981 1 1478635764
+/leads
+179-237-152-28.user3g.veloxzone.com.br
+0 28 22 1600210 2 1478177615
+/
+ip231.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188606
+/
+crawl-66-249-69-169.googlebot.com
+0 3 3 3540 1 1478838094
+/password/reset
+179-104-237-216.xd-dynamic.algarnetsuper.com.br
+0 48 4 111631 2 1478635412
+/leads/novo
+177-191-089-184.xd-dynamic.algarnetsuper.com.br
+0 3 2 46693 1 1478017508
+/leads/novo
+134customer-246-107-179.tcm10.com.br
+0 13 8 436500 1 1478635554
+/login
+scan-15.shadowserver.org
+0 1 0 352 1 1478931859
+/
+li1290-60.members.linode.com
+0 1 0 202 1 1478370848
+/
+crawl-66-249-65-124.googlebot.com
+0 3 2 3892 1 1478686755
+/password/reset
+scan-10.shadowserver.org
+0 4 1 1259 4 1479121241
+/
+201-58-73-160.user3g.veloxzone.com.br
+0 39 30 938805 1 1478614698
+/login
+191-054-210-149.xd-dynamic.algarnetsuper.com.br
+0 32 28 1256059 1 1478801827
+/leads
+201-7-22-41.spopa302.dial.brasiltelecom.net.br
+0 63 55 1443979 1 1478793961
+/login
+crawl-66-249-79-140.googlebot.com
+0 1 0 376 1 1479096795
+/
+187.18.210.42
+0 12 7 429927 1 1478790614
+/register
+177.54.150.26
+0 52 30 893233 1 1478791683
+/
+179.190.116.8
+0 44 34 1306521 1 1478789669
+/leads
+b1234b4c.virtua.com.br
+0 42 28 1714866 1 1478636332
+/
+189-041-082-235.xd-dynamic.algarnetsuper.com.br
+0 777 574 23102109 6 1478020792
+/leads
+ip230.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188861
+/
+61-216-2-13.hinet-ip.hinet.net
+0 1 0 202 1 1478508841
+/
+189-041-039-195.xd-dynamic.algarnetsuper.com.br
+0 4 3 415389 1 1478223832
+/login
+crawl-66-249-65-68.googlebot.com
+0 4 4 419791 1 1478686536
+/register
+google-proxy-66-249-88-37.google.com
+0 1 1 4077 1 1478788803
+/login
+crawl-66-249-64-68.googlebot.com
+0 1 1 119080 0 0
+-
+m2767.contabo.host
+0 2 0 10268 1 1478832703
+-
+b1b6324e.virtua.com.br
+0 5 4 417792 1 1478801312
+/login
+google-proxy-66-249-88-39.google.com
+0 1 1 294259 0 0
+-
+177.223.13.11.itanet.psi.br
+0 12 7 430427 2 1478689725
+/login
+google-proxy-66-102-8-193.google.com
+0 2 2 123157 1 1478788802
+/login
+196.52.43.55
+0 1 0 352 1 1478698192
+/
+186-210-209-247.xd-dynamic.algarnetsuper.com.br
+0 1 0 10019 0 0
+-
+177.43.37.140.static.gvt.net.br
+0 11 7 431151 1 1478789692
+/login
+google-proxy-66-249-88-35.google.com
+0 1 1 119080 0 0
+-
+187-6-113-54.gnace704.dsl.brasiltelecom.net.br
+0 13 9 437925 1 1478822435
+/login
+191-211-236-225.user.vivozap.com.br
+0 50 43 1780606 1 1478635524
+/
+crawl-66-249-65-73.googlebot.com
+0 2 2 4643 1 1478686633
+/login
+scan-07.shadowserver.org
+0 3 0 1056 3 1479029514
+/
+189-041-138-93.xd-dynamic.algarnetsuper.com.br
+0 4 3 415423 1 1478421260
+/login
+189-041-110-92.xd-dynamic.algarnetsuper.com.br
+0 4 3 415425 1 1478028890
+/login
+179-237-22-242.user3g.veloxzone.com.br
+0 48 39 1503421 1 1478677283
+/ponto-partida
+bl12-141-84.dsl.telepac.pt
+0 7 5 422245 1 1478792322
+/login
+researchscan271.eecs.umich.edu
+0 2 1 4914 1 1478598036
+/login
+google-proxy-66-102-8-223.google.com
+0 1 1 294259 0 0
+-
+159.203.4.15
+0 1 1 4562 1 1478431285
+/login
+crawl-66-249-79-144.googlebot.com
+0 1 1 4166 1 1479096795
+/login
+186-210-098-32.xd-dynamic.algarnetsuper.com.br
+0 67 35 1601035 2 1478635049
+/
+212.92.127.172
+0 2 1 4914 1 1478589542
+/login
+200-203-16-113.paemt706.dsl.brasiltelecom.net.br
+0 16 10 444224 1 1478803498
+/login
+238.11.162.191.isp.timbrasil.com.br
+0 244 108 4117542 1 1478020926
+/login
+b5dedfc7.virtua.com.br
+0 26 24 915078 1 1478763319
+/leads/novo
+179-66-64-96.user3g.veloxzone.com.br
+0 6 3 85005 1 1478770548
+/leads/44/editelead
+186-210-206-132.xd-dynamic.algarnetsuper.com.br
+0 133 86 3178817 3 1478536823
+/leads/33/editelead
+scan-05.shadowserver.org
+0 1 0 352 1 1478572448
+/
+137.116.71.170
+0 2 2 48 0 0
+-
+179-240-165-41.3g.claro.net.br
+0 4 3 415546 1 1478640057
+/login
+ns2.esal.com.br
+0 8 5 422015 1 1478790193
+/login
+h38.136.143.40.ip.windstream.net
+0 2 0 0 1 1478241258
+/
+186-210-215-174.xd-dynamic.algarnetsuper.com.br
+0 146 105 4863458 6 1478878668
+/login
+199.30.228.142
+0 1 0 376 1 1479197412
+/
+131.214.12.200.clarocom.com
+0 2 0 0 1 1479133384
+/
+201-5-80-245.user3g.veloxzone.com.br
+0 21 10 353135 1 1478768152
+/leads
+183.129.160.229
+0 1 0 352 1 1479196838
+/
+census6.shodan.io
+0 2 1 4488 1 1478972948
+/login
+199.30.228.132
+0 1 1 4166 1 1479197413
+/login
+139.100.66.189.isp.timbrasil.com.br
+0 4 3 417373 1 1478710021
+/login
+61.49.45.43
+0 8 1 65055 1 1478675166
+-
+189-041-109-182.xd-dynamic.algarnetsuper.com.br
+0 241 177 8862735 2 1478278999
+/leads/novo
+crawl-66-249-69-163.googlebot.com
+0 3 2 7682 1 1478838013
+/register
+researchscan319.eecs.umich.edu
+0 2 1 4488 1 1478868692
+/login
+census1.shodan.io
+0 6 2 9830 2 1478581775
+/
+189-041-136-140.xd-dynamic.algarnetsuper.com.br
+0 33 26 1257781 1 1478629877
+/leads
+168-194-192-2.painsonline.com.br
+0 46 24 1172058 2 1479121225
+/ponto-partida
+189-104-177-50.user3g.veloxzone.com.br
+0 40 32 1784731 1 1478179992
+/login
+scan-02.shadowserver.org
+0 1 0 352 1 1478328173
+/
+scan-01.shadowserver.org
+0 2 0 704 2 1478770504
+/
+186-210-193-40.xd-dynamic.algarnetsuper.com.br
+0 2 1 5006 1 1478029594
+/login
+162.243.5.155
+0 1 0 352 1 1478431284
+/
+189-041-080-85.xd-dynamic.algarnetsuper.com.br
+0 78 38 1735651 2 1478135374
+/leads/novo
+bbb720c3.virtua.com.br
+0 10 7 430190 1 1478796138
+/login
+crawl-66-249-64-73.googlebot.com
+0 2 2 4190 1 1478945648
+/login
+94.42.112.10
+0 2 1 4506 1 1478927555
+/login
+189-104-199-51.user3g.veloxzone.com.br
+0 49 7 183354 1 1478171684
+/leads
+163-172-200-111.rev.poneytelecom.eu
+0 4 1 14742 1 1478971154
+-
+144.57.171.191.isp.timbrasil.com.br
+0 1 1 85578 0 0
+-
+179-104-221-204.xd-dynamic.algarnetsuper.com.br
+0 5 2 9188 2 1478100696
+/login
+177-176-32-252.user3g.veloxzone.com.br
+0 71 26 819352 1 1478177721
+/leads
+187.63.100.248
+0 13 8 436783 1 1478635117
+/login
+crawl-66-249-79-148.googlebot.com
+0 2 2 48 0 0
+-
+187-52-94-236.gnace703.e.brasiltelecom.net.br
+0 5 4 417917 1 1478864078
+/login
+scan-11.shadowserver.org
+0 2 0 704 2 1478830166
+/
+b5ded4c9.virtua.com.br
+0 27 5 71129 1 1478855595
+/leads
+crawl-66-249-64-124.googlebot.com
+0 2 1 400 1 1478945647
+/
+212.92.127.201
+0 2 1 4914 1 1478477598
+/login
+191.142.205.232
+0 28 3 58839 1 1478676088
+/ponto-partida
+179-104-200-73.xd-dynamic.algarnetsuper.com.br
+0 474 343 16371636 5 1478798836
+/ponto-partida
+pirate.census.shodan.io
+0 3 1 4916 1 1478200651
+/
+crawl-66-249-69-166.googlebot.com
+0 1 1 4077 1 1478837923
+/login
+rtr-cri-gw-01.dhonline.com.br
+0 1 0 360 1 1478986456
+/
+180.97.106.37
+0 1 0 202 1 1478098978
+/
+60.198.81.187.isp.timbrasil.com.br
+0 27 5 83981 1 1478632142
+/leads/novo
+235.240.81.187.isp.timbrasil.com.br
+0 23 1 53792 1 1478779567
+/
+li855-205.members.linode.com
+0 4 0 1408 4 1479133174
+/
+ec2-54-206-127-149.ap-southeast-2.compute.amazonaws.com
+0 1 0 376 1 1478727541
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ip231.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188606
+/
+ip230.208-100-26.static.steadfastdns.net
+0 2 0 404 1 1479188861
+/
+199.30.228.142
+0 1 0 376 1 1479197412
+/
+183.129.160.229
+0 1 0 352 1 1479196838
+/
+199.30.228.132
+0 1 1 4166 1 1479197413
+/login
+# End Of Table - sites (daily)
+# -referrers- 
+https://proloconline.com.br/leads/5/editelead
+0 5
+https://proloconline.com.br/leads/26/editelead
+0 2
+https://proloconline.com.br/leads/28/editelead
+0 2
+http://173.44.46.117/
+0 2
+173.44.46.117
+0 2
+http://www.google.com/url
+0 2
+https://proloconline.com.br/leads/45/editelead
+0 2
+https://proloconline.com.br/leads/43/editelead
+0 2
+https://proloconline.com.br/leads/77/49/inativarleadhistorico
+0 1
+https://proloconline.com.br/login
+0 455
+https://proloconline.com.br/leads/72/45/inativarleadhistorico
+0 4
+https://www.google.com.br/
+0 4
+https://proloconline.com.br/leads/48/editelead
+0 2
+https://proloconline.com.br/leads/salvarlead
+0 9
+https://proloconline.com.br/index.php/login
+0 7
+https://www.proloconline.com.br/register
+0 10
+https://www.proloconline.com.br/index.php/login
+0 3
+http://173.44.46.117:80/
+0 2
+https://www.proloconline.com.br/leads/salvarlead
+0 3
+https://proloconline.com.br/leads/42/editelead
+0 2
+https://proloconline.com.br/leads/76/48/inativarleadhistorico
+0 2
+https://proloconline.com.br/arq/bootstrap/dist/css/bootstrap.min.css
+0 49
+http://173.44.46.117/phpmyadmin
+0 2
+https://www.proloconline.com.br/leads/novo
+0 323
+- (Direct Request)
+0 442
+https://proloconline.com.br/index.php
+0 17
+https://proloconline.com.br/leads/novo
+0 403
+https://www.proloconline.com.br/leads/8/editelead
+0 1
+https://proloconline.com.br/leads/49/editelead
+0 5
+https://proloconline.com.br/leads/15/editelead
+0 2
+https://www.proloconline.com.br/
+0 634
+https://proloconline.com.br/leads/44/editelead
+0 3
+https://proloconline.com.br/leads/71/44/inativarleadhistorico
+0 2
+https://proloconline.com.br/leads/34/editelead
+0 27
+https://proloconline.com.br/password/reset
+0 6
+https://proloconline.com.br/leads/79/51/inativarleadhistorico
+0 2
+https://proloconline.com.br/leads/36/editelead
+0 4
+https://proloconline.com.br/leads/68/41/inativarleadhistorico
+0 2
+https://proloconline.com.br/logout
+0 3
+https://proloconline.com.br/leads/41/editelead
+0 2
+https://proloconline.com.br/arq/font-awesome/css/font-awesome.min.css
+0 69
+https://www.proloconline.com.br/arq/bootstrap/dist/css/bootstrap.min.css
+0 1
+https://proloconline.com.br/leads/69/42/inativarleadhistorico
+0 2
+https://www.proloconline.com.br/leads
+0 135
+https://proloconline.com.br/register
+0 35
+https://www.proloconline.com.br/password/reset
+0 1
+https://proloconline.com.br/leads
+0 240
+https://proloconline.com.br/leads/14/editelead
+0 1
+https://proloconline.com.br/leads/70/43/inativarleadhistorico
+0 2
+https://www.proloconline.com.br/arq/font-awesome/css/font-awesome.min.css
+0 12
+https://www.proloconline.com.br/leads/9/editelead
+0 1
+https://proloconline.com.br/
+0 1050
+https://proloconline.com.br/leads/51/editelead
+0 2
+https://www.proloconline.com.br/leads/33/editelead
+0 2
+https://www.proloconline.com.br/login
+0 158
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 4
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 64
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+0 47
+Mozilla/5.0 (Linux; Android 4.1.2; LT22i Build/6.2.A.1.100) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobil
+0 37
+Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobil
+0 12
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 
+0 439
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 13
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 63
+Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile S
+0 33
+CSS Certificate Spider (http://www.css-security.com/certificatespider/)
+0 2
+Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J105B Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 C
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 25
+Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobi
+0 5
+Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile S
+0 435
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/54.0.2840.66 Mobile/1
+0 145
+Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; Valve Steam GameOverlay/1476379980; ) AppleWebKit/537.36 (KHTML, like Gecko) 
+0 4
+Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1114) lik
+0 39
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 5.1; XT1033 Build/LPBS23.13-56-2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobi
+0 13
+Mozilla/5.0 zgrab/0.x
+0 5
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 689
+Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+0 7
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 GTB7.1
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 3
+MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0
+0 76
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 8
+Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 
+0 31
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 3
+python-requests/2.11.1
+0 4
+curl/7.17.1 (mips-unknown-linux-gnu) libcurl/7.17.1 OpenSSL/0.9.8i zlib/1.2.3
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 348
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36
+0 11
+WhatsApp/2.16.310 A
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 8
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 8
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 984
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+0 98
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J105B Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile S
+0 343
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+0 80
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

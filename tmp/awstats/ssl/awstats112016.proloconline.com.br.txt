@@ -1,0 +1,476 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201611 will be lost/reset.
+# Last config file used to build this data file was /home/proloco/tmp/awstats/ssl/awstats.proloconline.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2699                
+POS_VISITOR 10170               
+POS_DAY 13296               
+POS_DOMAIN 3451                
+POS_LOGIN 3751                
+POS_ROBOT 3906                
+POS_WORMS 4170                
+POS_EMAILSENDER 4301                
+POS_EMAILRECEIVER 4444                
+POS_SESSION 13701               
+POS_SIDER 13910               
+POS_FILETYPES 4579                
+POS_DOWNLOADS 4875                
+POS_OS 4923                
+POS_BROWSER 5151                
+POS_SCREENSIZE 5673                
+POS_UNKNOWNREFERER 5747                
+POS_UNKNOWNREFERERBROWSER 5906                
+POS_ORIGIN 6023                
+POS_SEREFERRALS 6162                
+POS_PAGEREFS 6317                
+POS_SEARCHWORDS 6501                
+POS_KEYWORDS 6653                
+POS_MISC 2361                
+POS_ERRORS 6712                
+POS_CLUSTER 3607                
+POS_SIDER_404 6857                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20161115081013 31 6186 10812652052882
+FirstTime 20161101073627
+LastTime 20161115081013
+LastUpdate 20161115100058 31 0 31 0 0
+TotalVisits 97                  
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 75                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 124 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 32 906585 5 8 11891
+1 7 25 495159 7 10 22642
+2 0 0 0 4 4 10972
+3 0 0 0 0 0 0
+4 0 0 0 8 12 20241
+5 1 1 4562 8 8 5869
+6 0 0 0 4 6 11075
+7 63 172 6023318 34 56 532612
+8 61 179 5922065 24 41 179377
+9 26 84 1439283 14 26 75253
+10 13 43 800219 12 20 553944
+11 23 77 2218446 13 23 74953
+12 81 286 12282331 40 122 817233
+13 152 362 16376701 48 81 268879
+14 74 201 9048717 30 71 323427
+15 77 203 4635680 16 47 402058
+16 166 842 28334957 50 122 574821
+17 102 474 12231651 25 77 399564
+18 34 93 4621151 16 30 85994
+19 38 114 4161552 24 37 69350
+20 39 127 4190314 16 37 299571
+21 1 3 415154 3 3 1128
+22 0 0 0 1 1 352
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+br 944 3254 111622903
+us 19 55 2041414
+pt 2 4 421493
+ru 2 2 9124
+cn 2 2 8775
+gb 1 1 4136
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 21 570381 20161114041315 8
+spider 2 48 20161109202904 2
+curl 1 4146 20161112051235 0
+no_user_agent 1 203 20161101055033 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff2 151 6023612 0 0
+woff 11 569180 0 0
+Unknown 640 8290890 0 0
+ttf 1 152796 0 0
+js 1580 62931908 0 0
+css 581 29952538 0 0
+png 87 77650 0 0
+jpg 100 289467 0 0
+php 2 26668 0 0
+eot 2 96645 0 0
+map 8 3795358 0 0
+html 155 1901133 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linux 76 48
+ios_iphone 510 145
+winxp 1 1
+win8.1 12 6
+winphone 34 14
+macosx 128 40
+Unknown 3 3
+macosx5 1 1
+linuxandroid 707 193
+winnt 1762 478
+win8 3 1
+win7 81 40
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+chrome54.0.2840.85 30 11
+msie11.0 34 14
+chrome54.0.2840.71 1300 459
+chrome53.0.2785.116 6 2
+msie9.0 2 2
+chrome38.0.2125.102 3 1
+firefox9.0.1 1 1
+firefox46.0 12 8
+chrome34.0.1847.137 4 4
+netscape5.0 2 2
+chrome54.0.2840.90 6 4
+chrome49.0.2623.110 3 1
+chrome50.0.2661.86 9 5
+chrome18.0.1025.166 23 6
+safari10.0 454 142
+safari 124 21
+firefox49.0 35 15
+chrome54.0.2840.87 4 2
+firefox33.0 1 1
+chrome54.0.2840.68 651 175
+firefox3.6.13 1 1
+chrome53.0.2785.143 612 92
+Unknown 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.16.310_A 20161108171711
+Mozilla/5.0_zgrab/0.x 20161111125132
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WhatsApp/2.16.310_A 20161108171711
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 181 181
+From1 1 1
+From2 4 4
+From3 1 1
+From4 783 3131
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://173.44.46.117/phpmyadmin 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+500 15 434986
+301 2 484
+206 14 612162
+302 361 133134
+404 300 2985662
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 50
+/leads/28/images/img.jpg 1 https://proloconline.com.br/leads/28/editelead
+/www/start.html 1 -
+/leads/41/images/img.jpg 1 https://proloconline.com.br/leads/41/editelead
+/leads/48/images/img.jpg 1 https://proloconline.com.br/leads/48/editelead
+/leads/14/images/img.jpg 1 https://proloconline.com.br/leads/14/editelead
+/apple-touch-icon-precomposed.png 9 -
+/leads/15/images/img.jpg 1 https://proloconline.com.br/leads/15/editelead
+/services/MyICOffice 1 -
+/build/js/custom.min.js 4 https://proloconline.com.br/
+/leads/44/images/img.jpg 2 https://proloconline.com.br/leads/44/editelead
+/apple-touch-icon.png 37 -
+/admin/images/tango.png 2 -
+/leads/33/images/img.jpg 2 https://www.proloconline.com.br/leads/33/editelead
+/apple-touch-icon-120x120-precomposed.png 18 -
+/leads/9/images/img.jpg 1 https://www.proloconline.com.br/leads/9/editelead
+/css/app.css 1 https://proloconline.com.br/login
+/leads/45/images/img.jpg 1 https://proloconline.com.br/leads/45/editelead
+/leads/76/48/images/img.jpg 1 https://proloconline.com.br/leads/76/48/inativarleadhistorico
+/leads/34/images/img.jpg 4 https://proloconline.com.br/leads/34/editelead
+/leads/77/49/images/img.jpg 1 https://proloconline.com.br/leads/77/49/inativarleadhistorico
+/index.php/images/usuario/img-person.png 2 https://proloconline.com.br/index.php
+/RemoteControl.html 1 -
+/painel 1 -
+/leads/36/images/img.jpg 1 https://proloconline.com.br/leads/36/editelead
+/leads/71/44/images/img.jpg 1 https://proloconline.com.br/leads/71/44/inativarleadhistorico
+/leads/43/images/img.jpg 1 https://proloconline.com.br/leads/43/editelead
+/js/app.js 1 https://proloconline.com.br/login
+/leads/68/41/images/img.jpg 1 https://proloconline.com.br/leads/68/41/inativarleadhistorico
+/js/datepicker/daterangepicker.js 4 https://proloconline.com.br/
+/leads/42/images/img.jpg 1 https://proloconline.com.br/leads/42/editelead
+/admin 1 -
+/loginHttp/DataLayCfg.xml 1 -
+/leads/49/images/img.jpg 2 https://proloconline.com.br/leads/49/editelead
+/leads/69/42/images/img.jpg 1 https://proloconline.com.br/leads/69/42/inativarleadhistorico
+/leads/8/images/img.jpg 1 https://www.proloconline.com.br/leads/8/editelead
+/Http/DataLayCfg.xml 1 -
+/leads/79/51/images/img.jpg 1 https://proloconline.com.br/leads/79/51/inativarleadhistorico
+/leads/72/45/images/img.jpg 2 https://proloconline.com.br/leads/72/45/inativarleadhistorico
+/images/img.jpg 2 https://proloconline.com.br/
+/leads/images/img.jpg 153 https://proloconline.com.br/leads/novo
+/leads/51/images/img.jpg 1 https://proloconline.com.br/leads/51/editelead
+/leads/26/images/img.jpg 1 https://proloconline.com.br/leads/26/editelead
+/js/moment/moment.min.js 4 https://proloconline.com.br/
+/build/css/custom.min.css 2 https://proloconline.com.br/
+/loginwww/start.html 1 -
+/leads/5/images/img.jpg 1 https://proloconline.com.br/leads/5/editelead
+/HNAP1 1 http://173.44.46.117/
+/loginRemoteControl.html 1 -
+/apple-touch-icon-120x120.png 18 -
+/leads/70/43/images/img.jpg 1 https://proloconline.com.br/leads/70/43/inativarleadhistorico
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 75
+179.104.200.73 169 377 15991404 20161110172716
+189.41.82.235 81 698 22674487 20161101171952
+186.210.198.38 80 332 9182345 20161108172036
+189.41.109.182 59 210 8756609 20161104170319
+186.210.215.174 49 120 4796964 20161111153748
+186.210.110.113 46 171 6426127 20161103172749
+186.210.204.144 44 164 7163099 20161109144444
+186.210.206.132 40 108 3033582 20161107164023
+191.162.11.238 36 208 3892292 20161101172206
+201.7.22.41 29 47 1402447 20161110160601
+177.176.32.252 24 24 448316 20161103125523
+191.211.236.225 18 38 1644123 20161108200524
+179.237.22.242 17 34 1204232 20161109074123
+177.54.150.26 16 48 862824 20161110152803
+189.41.80.85 16 64 1692947 20161103010934
+179.190.116.8 15 35 1264925 20161110145429
+189.104.177.50 13 33 1753594 20161103133312
+186.210.98.32 12 61 1579893 20161108195730
+187.82.111.70 12 12 247759 20161103145358
+200.163.173.126 11 31 1652014 20161108200924
+191.54.210.149 10 27 1235293 20161110181707
+201.5.80.245 10 10 209733 20161110085552
+201.58.73.160 9 29 894739 20161108141818
+168.194.192.2 9 41 1171330 20161114110025
+189.104.199.51 8 39 121700 20161103111444
+189.41.138.93 1 3 415031 20161106083420
+212.92.127.172 1 1 4562 20161108071902
+187.18.210.42 4 8 428799 20161110151014
+187.183.32.195 4 6 429062 20161110164218
+141.212.122.16 1 1 4562 20161108094036
+187.52.94.236 1 3 417525 20161111113438
+177.35.75.76 7 26 1613132 20161108201852
+187.127.73.53 5 9 846068 20161110155915
+189.41.110.92 1 3 415033 20161101193450
+159.203.4.15 1 1 4562 20161106112125
+177.223.13.11 4 8 429299 20161109110845
+66.102.8.193 1 2 123157 20161110144002
+179.66.64.96 3 3 64591 20161110093548
+179.104.221.204 2 4 9188 20161102153136
+181.222.212.201 7 24 60382 20161111091315
+163.172.200.111 1 1 4136 20161112171913
+189.41.39.195 1 3 415013 20161104014352
+177.182.50.78 1 3 417416 20161110180832
+186.210.193.40 1 1 4614 20161101194634
+191.171.57.144 0 1 85578 
+189.41.136.140 8 26 1206926 20161108183117
+141.212.122.64 1 1 4136 20161111125132
+187.81.240.235 3 18 13348 20161110120611
+187.81.198.60 6 22 53100 20161108190902
+181.222.223.199 6 23 904707 20161110073519
+66.240.236.119 1 1 4136 20161112174908
+187.6.113.54 6 10 437133 20161111000035
+199.30.228.132 1 1 4166 20161115081013 20161115081013 /login
+66.249.88.37 1 1 4077 20161110144003
+191.142.205.232 5 22 18003 20161109072128
+189.66.100.139 1 3 416981 20161109164701
+177.21.248.179 2 6 421583 20161110150313
+177.43.37.140 4 6 429647 20161110145452
+177.191.89.184 2 2 36674 20161101162508
+179.107.246.134 5 7 434540 20161108200554
+61.49.45.43 1 1 4589 20161109070537
+187.63.100.248 5 7 434823 20161108195837
+85.245.141.84 2 4 421493 20161110153842
+66.102.8.223 0 1 294259 
+179.240.165.41 1 3 415154 20161108212057
+179.104.237.216 8 41 51125 20161108200334
+66.249.88.35 0 1 119080 
+179.237.152.28 7 20 1598728 20161103125335
+200.203.16.113 7 9 441928 20161110184458
+221.4.220.93 1 1 4186 20161113140954
+189.41.81.41 2 4 126324 20161109182529
+212.92.127.201 1 1 4562 20161107001318
+66.249.88.39 0 1 294259 
+198.20.69.74 2 2 9126 20161108050928
+71.6.146.185 1 1 4564 20161103191726
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20161101 126 933 28171011 10
+20161102 2 4 9188 2
+20161103 123 344 11150388 13
+20161104 60 213 9171622 3
+20161106 2 4 419593 2
+20161107 41 109 3038144 4
+20161108 176 632 19685858 17
+20161109 71 231 8937847 9
+20161110 292 645 26620100 23
+20161111 64 158 5716140 8
+20161112 7 24 1166347 3
+20161113 1 1 4186 1
+20161114 4 19 13255 1
+20161115 1 1 4166 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 10
+30s-2mn 12
+0s-30s 39
+5mn-15mn 6
+15mn-30mn 11
+1h+ 9
+2mn-5mn 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 46
+/login 250 1698089 77 46
+/ 155 1901133 9 7
+/leads/novo 147 2675700 3 9
+/leads 133 3062729 2 11
+/arq/font-awesome/fonts/fontawesome-webfont.woff2 93 5248408 0 4
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 58 775204 0 2
+/ponto-partida 29 464 1 6
+/register 25 96435 0 2
+/leads/salvarlead 8 105042 0 0
+/arq/bootstrap/dist/css/bootstrap.min.css.map 8 3795358 0 1
+/arq/font-awesome/fonts/fontawesome-webfont.woff 6 452060 0 0
+/password/reset 6 21063 1 2
+/index.php/login 6 24841 4 1
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.woff 5 117120 0 0
+/leads/salvarleadhistorico 4 649 0 1
+/leads/34/editelead 4 80565 0 0
+/leads/49/editelead 2 38496 0 0
+/index.php 2 26668 0 0
+/leads/44/editelead 2 38573 0 1
+/leads/71/44/inativarleadhistorico 1 18995 0 0
+/leads/42/editelead 1 19287 0 0
+/leads/15/editelead 1 19434 0 0
+/leads/41/editelead 1 19286 0 0
+/leads/26/editelead 1 19528 0 0
+/leads/48/editelead 1 19238 0 0
+/leads/28/editelead 1 19040 0 0
+/leads/70/43/inativarleadhistorico 1 19000 0 0
+/leads/43/editelead 1 19280 0 0
+/leads/9/editelead 1 19445 0 1
+/leads/5/editelead 1 20106 0 0
+/leads/33/editelead 1 19833 0 1
+/leads/72/45/inativarleadhistorico 1 18999 0 0
+/leads/69/42/inativarleadhistorico 1 19007 0 0
+/leads/77/49/inativarleadhistorico 1 18968 0 0
+/leads/51/editelead 1 19306 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.eot 1 76518 0 0
+/leads/79/51/inativarleadhistorico 1 19026 0 0
+/leads/36/editelead 1 19339 0 0
+/arq/bootstrap/dist/fonts/glyphicons-halflings-regular.eot 1 20127 0 0
+/index.php/register 1 3259 0 0
+/leads/8/editelead 1 21521 0 0
+/arq/font-awesome/fonts/fontawesome-webfont.ttf 1 152796 0 0
+/leads/14/editelead 1 19104 0 1
+/leads/68/41/inativarleadhistorico 1 19006 0 0
+/leads/45/editelead 1 19279 0 0
+/leads/76/48/inativarleadhistorico 1 18958 0 0
+END_SIDER
