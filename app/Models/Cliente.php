@@ -33,4 +33,11 @@ class Cliente extends Model
         'referencia_correspondencia',
         'data_limite_credito',
     ];
+
+    public function contato()
+    {
+
+        return $this->hasMany(ContatoCliente::class);
+
+    }
 }
