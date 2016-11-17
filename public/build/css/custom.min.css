@@ -724,3 +724,10 @@
     position: fixed;
 }
 
+.dropdown-menu>li>a{
+    font-size: 1.3em;
+}
+
+.font-radio{
+    font-size: 1.3em;
+}

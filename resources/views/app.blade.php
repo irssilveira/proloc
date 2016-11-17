@@ -56,9 +56,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <a><i class="fa fa-user-circle-o"></i> Clientes <span class="fa fa-chevron-down"></span> </a>
+                                <a><i class="fa fa-user-circle-o"></i> Cadastro <span class="fa fa-chevron-down"></span> </a>
                                 <ul class="nav child_menu">
-                                    <li><a href="{{('leads')}}">Leads</a></li>
+                                    <li><a href="{{route('clientes')}}"> Cliente</a></li>
                                 </ul>
                             </li>
 
@@ -120,58 +120,24 @@
                                 <span class="badge bg-green">6</span>
                             </a>
                             <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                                <li>
-                                    <a>
-                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
+                                @for($i = 0;$i<5;$i++)
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="{{url('images/usuario/img-person.png')}}" alt="Profile Imagem"/></span>
+                                            <span>
+                          <span>Proloc Inovar</span>
+                          <span class="time">3 minutos</span>
                         </span>
-                                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            <span class="message">
+                        OPa tudo bem com vc?
                         </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                                    </a>
-                                </li>
+                                        </a>
+                                    </li>
+                                @endfor
                                 <li>
                                     <div class="text-center">
                                         <a>
-                                            <strong>See All Alerts</strong>
+                                            <strong>Todos os alertas</strong>
                                             <i class="fa fa-angle-right"></i>
                                         </a>
                                     </div>

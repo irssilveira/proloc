@@ -10,7 +10,7 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
+Route::get('/consultar_cep','HomeController@searchCep');
 Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
 
     Route::get('/', function () {
@@ -45,20 +45,14 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
 
         //Novo lead abrir para cadastrar
         Route::get('/',[
-            'as' => 'leads',
-            'uses' => 'LeadController@mostrarLeads'
+            'as' => 'clientes',
+            'uses' => 'ClienteController@mostrarClientes'
         ]);
-        Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
+        Route::get('/novo',['as'=>'clientes.novo', 'uses' => 'ClienteController@novo']);
         //Novo lead salvar
-        Route::post('/salvarlead',['as'=>'leads.salvar','uses'=>'LeadController@salvarNovoLeads']);
+        Route::post('/salvarCliente',['as'=>'clientes.salvar','uses'=>'ClienteController@novoCliente']);
         //Abrir o lead para editar/add tarefa/outros
-        Route::get('{id}/editelead',['as'=>'leads.edite','uses'=>'LeadController@abrirEditeLeads']);
-        //Editar/Salvar alteração no cadastro
-        Route::post('/salvareditelead',['as'=>'leads.editesalvarlead','uses'=>'LeadController@salvarEditartLead']);
-        //Adicionar tarefa ao lead
-        Route::post('/salvarleadhistorico',['as'=>'leads.salvarleadhistorico','uses'=>'LeadController@addHistoricoLead']);
-
-        Route::get('{id}/{idLead}/inativarleadhistorico',['as'=>'leads.inativarhistorico','uses'=>'LeadController@inativarHistoricoLead']);
+        Route::get('{id}/editarCliente',['as'=>'clientes.editar','uses'=>'ClienteController@editarLead']);
 
     });
 });
