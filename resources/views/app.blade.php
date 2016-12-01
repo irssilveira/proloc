@@ -11,6 +11,7 @@
 
     <!-- Bootstrap -->
     <link href="{{asset('arq/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('build/css/lightbox.min.css')}}" />
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/9a93b47e91.js"></script>
 
@@ -50,9 +51,19 @@
                         <ul class="nav side-menu">
                             <li><a href="{{url('')}}"><i class="fa fa-home"></i> Home </a>
                             </li>
+                            @if(auth()->user()->tipo_user == "admin")
+                            <li>
+                                <a><i class="fa fa-bolt"></i> Administrativo <span class="fa fa-chevron-down"></span> </a>
+                                <ul class="nav child_menu">
+                                    <li><a href="{{route('gerencia')}}"> Relátorio Geral Leads</a></li>
+                                </ul>
+                            </li>
+
+                            @endif
                             <li><a><i class="fa fa-desktop"></i> Comercial <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="{{route('leads')}}">Leads</a></li>
+                                    <li></li>
                                 </ul>
                             </li>
                             <li>
@@ -61,6 +72,7 @@
                                     <li><a href="{{route('clientes')}}"> Cliente</a></li>
                                 </ul>
                             </li>
+
 
                         </ul>
                     </div>
@@ -180,7 +192,11 @@
 
 
 <!-- jQuery -->
-<script src="{{asset('arq/jquery/dist/jquery.min.js')}}"></script>
+<script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
 <!-- Bootstrap -->
 <script src="{{asset('arq/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 
@@ -192,6 +208,9 @@
 <script src="{{asset('arq/Flot/jquery.flot.time.js')}}"></script>
 <script src="{{asset('arq/Flot/jquery.flot.stack.js')}}"></script>
 <script src="{{asset('arq/Flot/jquery.flot.resize.js')}}"></script>
+<script src="{{asset('build/js/lightbox.min.js')}}"></script>
+
+
 <!-- Custom Theme Scripts -->
 <script src="{{asset('build/js/custom.min.js')}}"></script>
 @yield('geolocation')

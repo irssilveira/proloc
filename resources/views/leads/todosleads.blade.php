@@ -10,6 +10,14 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumbProduct">
+                <a href="#" id="leadsInativos" class="btn btn-danger pull-right">Leads Inativos</a>
+                <a href="#" id="leadsAtivos" class="btn btn-success pull-left">Leads Ativos</a>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-12">
             @if(Session::has('alert-success'))
                 <div class="esconde alert alert-success"><span class="glyphicon glyphicon-ok"></span><em> {!! session('alert-success') !!}</em></div>
@@ -37,7 +45,7 @@
                         <th>Editar</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="resultado">
                     @foreach($leads as $lead)
 
                         <tr>

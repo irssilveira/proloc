@@ -63,6 +63,12 @@ class LeadController extends Controller
         return view('leads.todosleads',compact('leads'));
     }
 
+    public function leadsInativo(){
+        $leadsInativo = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',Session::get('unidade_id'))->where('leads_historico.status', '=', 'Finalizado')->orderBy('dataRetorno','asc')->paginate(30);
+        return Response::json($leadsInativo);
+
+    }
+
     //Abrir a tela de editar carregando os dados do lead selecionado
     public function abrirEditeLeads($id){
 

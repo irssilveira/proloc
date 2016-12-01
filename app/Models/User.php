@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'login', 'password',
+        'name', 'login', 'password','tipo_user',
     ];
 
     /**
@@ -28,4 +28,11 @@ class User extends Authenticatable
     public function unidade(){
         return $this->belongsToMany(Unidades::class,'unidades_user');
     }
+
+
+    public function tipo(){
+        return $this->hasOne(TipoUsuario::class);
+
+    }
+
 }

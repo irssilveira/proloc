@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 form-group{{ $errors->has('razao_social_nome') ? ' has-error' : '' }}">
-                                <input type="text" id="razaoSocialNome" name="razao_social_nome" placeholder="Razão Social ou nome *" value="{{old('razao_social_nome')}}" required class="form hide form-control col-md-7 col-xs-12" />
+                                <input type="text" id="razaoSocialNome" name="razao_social_nome" placeholder="Razão Social ou nome *" value="{{old('razao_social_nome')}}"  required class="form hide form-control col-md-7 col-xs-12" />
                                 @if ($errors->has('razao_social_nome'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('razao_social_nome') }}</strong>
@@ -145,7 +145,7 @@
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group{{ $errors->has('cidade') ? ' has-error' : '' }}">
-                                <input type="text" id="cidade" name="cidade" placeholder="Cidade *"  value="{{old('cidade')}}" class="form form-control col-md-7 col-xs-12">
+                                <input type="text" id="cidade" name="cidade" placeholder="Cidade *"  value="{{old('cidade')}}" class="form form-control col-md-7 col-xs-12" >
                                 @if ($errors->has('cidade'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('cidade') }}</strong>
@@ -174,7 +174,32 @@
 
                     </div>
                     <div id="contatos" class="tab-pane fade">
-                        teste
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-sm-2 col-xs-12">
+                                <input type="text" id="bairro" name="telefone" placeholder="Telefone *"  value="{{old('telefone')}}" class="form form-control col-md-7 col-xs-12" data-inputmask="'mask': '(99) 9999-9999'">
+                                @if ($errors->has('telefone'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('telefone') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-2 col-xs-12">
+                                <input type="text" id="bairro" name="bairro" placeholder="Bairro *"  value="{{old('bairro')}}" class="form form-control col-md-7 col-xs-12">
+                                @if ($errors->has('bairro'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('bairro') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-2 col-xs-12">
+                                <input type="text" id="bairro" name="bairro" placeholder="Bairro *"  value="{{old('bairro')}}" class="form form-control col-md-7 col-xs-12">
+                                @if ($errors->has('bairro'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('bairro') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
                     </div>
                     <div id="cond_pagamento" class="tab-pane fade">
                         teste2
