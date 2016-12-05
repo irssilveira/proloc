@@ -28,19 +28,11 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
             'as' => 'gerencia',
             'uses' => 'AdminController@relatorioGeralLeads'
         ]);
+        Route::get('/ponto-de-partida',['as' => 'pdp','uses'=> 'AdminController@pdp']);
         Route::get('{id}/vermais',['as' => 'geral.vermais','uses' => 'AdminController@verMaisLeads']);
-        Route::get('/leadsinativo', 'LeadController@leadsInativo');
-        Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
-        //Novo lead salvar
-        Route::post('/salvarlead',['as'=>'leads.salvar','uses'=>'LeadController@salvarNovoLeads']);
-        //Abrir o lead para editar/add tarefa/outros
-        Route::get('{id}/editelead',['as'=>'leads.edite','uses'=>'LeadController@abrirEditeLeads']);
-        //Editar/Salvar alteração no cadastro
-        Route::post('/salvareditelead',['as'=>'leads.editesalvarlead','uses'=>'LeadController@salvarEditartLead']);
-        //Adicionar tarefa ao lead
-        Route::post('/salvarleadhistorico',['as'=>'leads.salvarleadhistorico','uses'=>'LeadController@addHistoricoLead']);
 
-        Route::get('{id}/{idLead}/inativarleadhistorico',['as'=>'leads.inativarhistorico','uses'=>'LeadController@inativarHistoricoLead']);
+        Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
+
 
     });
     Route::group(['prefix' => 'leads'],function() {
@@ -50,6 +42,7 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
             'as' => 'leads',
             'uses' => 'LeadController@mostrarLeads'
         ]);
+        Route::get('/leadstodos', 'LeadController@leadsTodos');
         Route::get('/leadsinativo', 'LeadController@leadsInativo');
         Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
         //Novo lead salvar

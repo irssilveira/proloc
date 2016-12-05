@@ -12,6 +12,7 @@
                     <input type="hidden" name="latitude" id="latitude" value="" />
                     <input type="hidden" name="src_mapa" id="src_mapa" value="" />
                     <input type="hidden" name="users_id" value="{{auth()->user()->id}}">
+                    <input type="hidden" id="unidade_id" name="unidade_id" value="<?=(\Session::get('unidade_id'))?>">
                     <div class="card-list purple">
                         <h3 class="title">PDP</h3>
                         <span class="glyphicon glyphicon-globe estilo-icon"></span>

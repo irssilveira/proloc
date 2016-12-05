@@ -23,7 +23,7 @@ class Unidades extends Model
         'tipo_id',
     ];
 
-    public function user(){
+    public function usuario(){
         return $this->belongsToMany(User::class,'unidades_user');
     }
 
@@ -35,7 +35,5 @@ class Unidades extends Model
         return $this->hasOne(Estado::class,'id','estado_id');
     }
 
-    public function tipofranquia(){
-        return $this->hasOne(TipoFranquia::class,'id','tipo_id');
-    }
+
 }

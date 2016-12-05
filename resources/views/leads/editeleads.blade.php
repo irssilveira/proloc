@@ -74,8 +74,11 @@
                             <div class="col-lg-6">
 
                                 <button type="submit" class="form-btn btn btn-default">Salvar</button>
-
-
+                                @if(!empty($lead->latitude))
+                                    <a href="http://maps.google.com/maps?q={{$lead->latitude}},{{$lead->longitude}}" target="_blank" class="form-btn btn btn-default mb20">Ver mapa</a>
+                                @else
+                                    <a href="#"  class="form-btn btn btn-danger mb20">Não há mapa</a>
+                                @endif
                             </div>
                             <!-- /.col-lg-6 (nested) -->
                         </form>

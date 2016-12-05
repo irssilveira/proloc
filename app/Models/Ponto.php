@@ -10,6 +10,7 @@ class Ponto extends Model
     protected $table = 'ponto';
     protected  $fillable = [
         'users_id',
+        'unidade_id',
         'longitude',
         'latitude',
         'src_mapa'
