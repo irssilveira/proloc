@@ -31,4 +31,8 @@ class AdminController extends Controller
         $pdps = $this->pdp->where('unidade_id',Session::get('unidade_id'))->orderBy('id','dsc')->paginate(20);
         return view('admin.relatorio_pdp',compact('pdps'));
     }
+    public function verMaisLPdp($id){
+        $pdp = $this->pdp->find($id);
+        return view('admin.ver_mais_pdp',compact('pdp'));
+    }
 }

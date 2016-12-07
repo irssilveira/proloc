@@ -30,6 +30,7 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         ]);
         Route::get('/ponto-de-partida',['as' => 'pdp','uses'=> 'AdminController@pdp']);
         Route::get('{id}/vermais',['as' => 'geral.vermais','uses' => 'AdminController@verMaisLeads']);
+        Route::get('{id}/vermaispdp',['as' => 'geral.vermaispdp','uses' => 'AdminController@verMaisLPdp']);
 
         Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
 

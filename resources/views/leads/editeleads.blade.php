@@ -1,6 +1,17 @@
 @extends('app')
 
 @section('content')
+    <div class="row">
+        <div class="col-md-12 breadcrumb ">
+
+            <div class="btn-group btn-breadcrumb">
+                <a href="{{url('/')}}" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></a>
+                <a href="{{route('leads')}}" class="btn btn-info">Leads</a>
+                <a href="#" class="btn btn-info">Leads número {{$lead->id}}</a>
+
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-lg-12">
@@ -77,7 +88,7 @@
                                 @if(!empty($lead->latitude))
                                     <a href="http://maps.google.com/maps?q={{$lead->latitude}},{{$lead->longitude}}" target="_blank" class="form-btn btn btn-default mb20">Ver mapa</a>
                                 @else
-                                    <a href="#"  class="form-btn btn btn-danger mb20">Não há mapa</a>
+                                    <a href="#"  class="form-btn btn btn-danger mb20">Não há registro!</a>
                                 @endif
                             </div>
                             <!-- /.col-lg-6 (nested) -->
@@ -166,7 +177,7 @@
                     <td class="vertical-middle">{{$leadHistorico->observacao}}</td>
 
                     <td  width="5%" class="text-center vertical-middle">
-                        @if($leadHistorico->status == 'Pendente')
+                        @if($leadHistorico->status == 'Pendente' && auth()->user()->tipo_user == "admin")
                             <div class="dropdown">
 
                                 <a href="{{route('leads.inativarhistorico',['id'=>$leadHistorico->id, 'idLead'=>$lead->id])}}" class="btn btn-xs btn-primary"><i class="fa fa-plus"></i></a>

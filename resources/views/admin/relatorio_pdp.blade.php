@@ -1,7 +1,14 @@
 @extends('app')
 
 @section('content')
+    <div class="row">
+        <div class="col-md-12 breadcrumb">
 
+            <div class="btn-group btn-breadcrumb">
+                <a href="{{url('/')}}" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></a>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
             <div class="table-responsive-vertical shadow-z-1">
@@ -43,7 +50,7 @@
                                         <a href="javascript:;" class="btn  btn-primary btn-md" data-toggle="dropdown"><i class="fa fa-plus"></i></a>
                                         <ul class="dropdown-menu mudar-posicao pull-right">
                                             <li>
-                                                <a href="{{route('geral.vermais',['id'=>$pdp->id])}}"><i class="fa fa-fw fa-gear"></i>Ver mais</a>
+                                                <a href="{{route('geral.vermaispdp',['id'=>$pdp->id])}}"><i class="fa fa-fw fa-gear"></i>Ver mais</a>
                                             </li>
 
                                             <li class="divider"></li>

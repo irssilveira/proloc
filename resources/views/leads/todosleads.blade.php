@@ -1,7 +1,14 @@
 @extends('app')
 
 @section('content')
+    <div class="row">
+        <div class="col-md-12 breadcrumb">
 
+            <div class="btn-group btn-breadcrumb">
+                <a href="{{url('/')}}" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></a>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-12">
             <ol class="breadcrumbProduct">

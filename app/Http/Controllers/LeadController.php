@@ -96,7 +96,7 @@ class LeadController extends Controller
         $user = Auth::user();
 
         $lead = Leads::find($data['id']);
-
+        $lead->unidades_id = Session::get('unidade_id');
         $lead->nome = $data['nome'];
         $lead->email = $data['email'];
         $lead->telefone = $data['telefone'];

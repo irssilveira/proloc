@@ -24,11 +24,11 @@ class LeadsEditRequest extends Request
     public function rules()
     {
         $rules = [
+
             'id' => 'required',
             'nome' => 'required',
             'email' => 'required',
             'telefone' => 'required',
-            'celular' => 'required',
             'endereco' => 'required',
             'bairro' => 'required',
             'cidade' => 'required',
@@ -47,7 +47,6 @@ class LeadsEditRequest extends Request
             'nome.required'         => 'Complete o nome',
             'email.required'         => 'Complete o email',
             'telefone.required'         => 'Complete o telefone',
-            'celular.required'         => 'Complete o celular',
             'endereco.required'         => 'Complete o endereco',
             'bairro.required'         => 'Complete o bairro',
             'cidade.required'         => 'Complete a cidade',

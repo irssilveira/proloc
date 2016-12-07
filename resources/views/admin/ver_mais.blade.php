@@ -2,11 +2,14 @@
 
 @section('content')
     <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header adminFontTitulo">
-                Relatório número {{$relatorioLead->id}}
-            </h1>
+        <div class="col-md-12 breadcrumb ">
 
+            <div class="btn-group btn-breadcrumb">
+                <a href="{{url('/')}}" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></a>
+                <a href="{{route('gerencia')}}" class="btn btn-info">Gerencia</a>
+                <a href="#" class="btn btn-info">Relatório número {{$relatorioLead->id}}</a>
+
+            </div>
         </div>
     </div>
     <div class="row">
