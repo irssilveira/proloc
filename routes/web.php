@@ -21,6 +21,7 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         return view('principal');
     });
     Route::post('/ponto-partida','LocalController@storeLocal');
+
     Route::group(['prefix' => 'gerencia'],function() {
 
         //Novo lead abrir para cadastrar
@@ -58,6 +59,8 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         Route::get('{id}/{idLead}/inativarleadhistorico',['as'=>'leads.inativarhistorico','uses'=>'LeadController@inativarHistoricoLead']);
 
     });
+
+
     Route::group(['prefix' => 'clientes'],function() {
 
         //Novo lead abrir para cadastrar
@@ -72,11 +75,25 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         Route::get('{id}/editarCliente',['as'=>'clientes.editar','uses'=>'ClienteController@editarLead']);
 
     });
+    Route::group(['prefix' => 'frete'],function() {
+
+        //Novo lead abrir para cadastrar
+        Route::get('/',[
+            'as' => 'frete',
+            'uses' => 'FreteController@index'
+        ]);
+        Route::post('/frete-abertura','FreteController@salvarFreteAbertura');
+        Route::post('/frete-chegada','FreteController@freteChegadaCliente');
+        Route::post('/frete-saida','FreteController@freteSaidaCliente');
+        Route::post('/frete-fechamento','FreteController@freteFechamento');
+        Route::get('/novo',['as'=>'frete.novo', 'uses' => 'FreteController@novo']);
+        Route::get('/controle/{id}',['as' =>'frete.controle', 'uses' => 'FreteController@freteControle']);
+
+
+    });
 });
 Route::get('logout', '\proloc\Http\Controllers\Auth\LoginController@logout');
-Auth::routes(
-
-);
+Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/login','\proloc\Http\Controllers\Auth\LoginController@mostraUnidade');

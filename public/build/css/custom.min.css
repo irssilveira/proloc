@@ -736,3 +736,42 @@
 margin-bottom: 5px;
     margin-top: 5px;
 }
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+/* area lightbox */
+
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* CSS FRETE */
+
+.disabled {
+    z-index: 1000;
+    background-color: #A0A0A0;
+
+    pointer-events: none;
+}
+
+
+
+.bg-cinza{
+    background-color:#696969;
+
+}
+
+.bg-inativo{
+    background-color: #3B5998;
+}

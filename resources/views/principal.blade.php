@@ -22,40 +22,130 @@
 
                 </form>
             </div>
-            <a href="{{route('leads.novo')}}">
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
-                    <div class="card-list red">
-                        <h3 class="title">Novo Leads</h3>
-                        <span class="glyphicon glyphicon-pencil estilo-icon"></span>
-                        <p>Criação ou edição Leads</p>
-                    </div>
-                </div>
-            </a>
-            <a href="{{route('leads')}}">
+            <a href="#leads" data-target="#leads" data-toggle="modal" title="Leads">
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
                     <div class="card-list orange">
-                        <h3 class="title">Relátorios Leads</h3>
-                        <span class=" glyphicon glyphicon-folder-open estilo-icon"></span>
+                        <h3 class="title">Leads</h3>
+                        <span class="glyphicon glyphicon-folder-open estilo-icon"></span>
 
 
-                        <p>Relatório geral leads</p>
+                        <p>Clica para abrir as opções</p>
                     </div>
                 </div>
             </a>
+            <a href="#frete" data-target="#frete" data-toggle="modal" title="Leads">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                    <div class="card-list green">
+                        <h3 class="title">Frete</h3>
+                        <i class="fa fa-truck estilo-icon" aria-hidden="true"></i>
+
+
+                        <p>Clica para abrir as opções</p>
+                    </div>
+                </div>
+            </a>
+
         </div>
-       <!-- <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12 col-xs-12">
-                <div class="card-list green">
-                    <h3 class="title">Green Tile</h3>
-                    <p>Hello Green, this is a colored tile.</p>
+        <!-- <div class="row">
+             <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12 col-xs-12">
+                 <div class="card-list green">
+                     <h3 class="title">Green Tile</h3>
+                     <p>Hello Green, this is a colored tile.</p>
+                 </div>
+             </div>
+             <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                 <div class="card-list blue">
+                     <h3 class="title">Blue Tile</h3>
+                     <p>Hello Blue, this is a colored tile.</p>
+                 </div>
+             </div>
+         </div> -->
+    </div>
+
+    <!-- area modal das opções -->
+    <!-- modal frete -->
+    <div class="modal fade" id="frete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="fa fa-truck"></i> Frete</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <a class="confirmacaoLink" href="#"}">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <div class="card-list red">
+                                    <h3 class="title">Novo Frete</h3>
+                                    <span class="glyphicon glyphicon-pencil estilo-icon"></span>
+                                    <p>Criar novo</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{route('leads')}}">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <div class="card-list orange">
+                                    <h3 class="title">Frete relatórios</h3>
+                                    <i class="fa fa-newspaper-o estilo-icon" aria-hidden="true"></i>
+
+
+                                    <p>Relatório Geral</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
-                <div class="card-list blue">
-                    <h3 class="title">Blue Tile</h3>
-                    <p>Hello Blue, this is a colored tile.</p>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- modal leads -->
+    <div class="modal fade" id="leads" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-folder-open"></i> Leads</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <a href="{{route('leads.novo')}}">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <div class="card-list red">
+                                    <h3 class="title">Novo Leads</h3>
+                                    <span class="glyphicon glyphicon-pencil estilo-icon"></span>
+                                    <p>Criação ou edição Leads</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{route('leads')}}">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <div class="card-list orange">
+                                    <h3 class="title">Relátorios de Leads</h3>
+                                    <span class=" glyphicon glyphicon-folder-open estilo-icon"></span>
+
+
+                                    <p>Relatório geral leads</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-        </div> -->
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
     </div>
 @endsection
