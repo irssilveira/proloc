@@ -36,6 +36,9 @@ class Frete extends Model
 
     ];
 
+    public function userfrete(){
+        return $this->belongsTo(User::class);
+    }
 
 }
 

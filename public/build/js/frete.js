@@ -189,6 +189,8 @@ $(document).ready(function () {
                 $('.iconFreteFechamento').removeClass('fa-square-o').addClass('fa-check-square-o');
                 $('#fechamentoFrete').modal('hide');
                 $('#fechamentoFrete').empty();
+                $('.fechamentoFrete').addClass('disabled');
+
                 // aqui vou coloca o botao pra finalizar :D $('.fechamentoFrete').removeClass('disabled');
             }
         });

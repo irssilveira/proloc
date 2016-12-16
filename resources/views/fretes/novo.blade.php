@@ -107,7 +107,7 @@
                                     <input id="contrato" required="required" name="contrato" class="form form-control col-md-7 col-xs-12" placeholder="Contrato *">
                                 </div>
                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                    <input id="km_inicial" maxlength="8" required="required" name="km_inicial" class="form form-control" placeholder="Informe o KM *">
+                                    <input type="number" id="km_inicial" maxlength="8" required="required" name="km_inicial" class="form form-control" placeholder="Informe o KM *">
                                 </div>
                             </div>
 
@@ -116,7 +116,7 @@
                                     <input id="cliente" required="required" name="cliente" class="form form-control" placeholder="Informe o cliente *">
                                 </div>
                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                    <input id="telefone" required="required" name="telefone" class="form form-control" placeholder="Informe o telefone *">
+                                    <input id="telefone" required="required" name="telefone" class="form form-control" placeholder="Informe o telefone *" data-inputmask="'mask': '(99) 9 9999-9999'">
                                 </div>
                             </div>
 

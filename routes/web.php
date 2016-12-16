@@ -29,10 +29,11 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
             'as' => 'gerencia',
             'uses' => 'AdminController@relatorioGeralLeads'
         ]);
+        Route::get('/frete-relatorio',['as'=>'geral.frete','uses'=>'AdminController@freteGeral']);
         Route::get('/ponto-de-partida',['as' => 'pdp','uses'=> 'AdminController@pdp']);
         Route::get('{id}/vermais',['as' => 'geral.vermais','uses' => 'AdminController@verMaisLeads']);
         Route::get('{id}/vermaispdp',['as' => 'geral.vermaispdp','uses' => 'AdminController@verMaisLPdp']);
-
+        Route::get('{id}/vermaisfrete',['as'=>'geral.vermaisfrete','uses'=>'AdminController@verMaisFrete']);
         Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
 
 
