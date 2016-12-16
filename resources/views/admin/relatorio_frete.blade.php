@@ -17,6 +17,7 @@
                     <thead>
                     <tr>
                         <th>ID</th>
+                        <th>Nº Contrato</th>
                         <th>Local</th>
                         <th>Nome</th>
                         <th>Data de criação</th>
@@ -29,6 +30,7 @@
                         <tr>
 
                             <td class="vertical-middle" data-title="ID">{{$frete->id}}</td>
+                            <td class="vertical-middle" data-title="Número Contrato">{{$frete->contrato}}</td>
                             @if(!empty($frete->mapa_abertura))
                                 <td class="vertical-middle" data-title="Mapa">
                                     <img class="group list-group-image content-img-sugestao lazy transition-img" src="{{$frete->mapa_abertura}}" width="80" height="80" alt="titulo imagem" />

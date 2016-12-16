@@ -116,7 +116,7 @@
                                     <input id="cliente" required="required" name="cliente" class="form form-control" placeholder="Informe o cliente *">
                                 </div>
                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                    <input id="telefone" required="required" name="telefone" class="form form-control" placeholder="Informe o telefone *" data-inputmask="'mask': '(99) 9 9999-9999'">
+                                    <input id="telefone" required="required" name="telefone" class="form form-control" placeholder="Informe o telefone *" data-inputmask="'mask': '(99) 9999-9999'">
                                 </div>
                             </div>
 
