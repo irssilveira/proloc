@@ -9,14 +9,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>ProLoc Online</title>
 
-    <!-- Bootstrap -->
-    <link href="{{asset('arq/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('build/css/lightbox.min.css')}}" />
-    <!-- Font Awesome -->
+
     <script src="https://use.fontawesome.com/9a93b47e91.js"></script>
 
     <!-- Custom Theme Style -->
-    <link href="{{asset('build/css/custom.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/all.css')}}" rel="stylesheet">
 </head>
 
 <body class="nav-md">
@@ -52,14 +49,14 @@
                             <li><a href="{{url('')}}"><i class="fa fa-home"></i> Home </a>
                             </li>
                             @if(auth()->user()->tipo_user == "admin")
-                            <li>
-                                <a><i class="fa fa-bolt"></i> Administrativo <span class="fa fa-chevron-down"></span> </a>
-                                <ul class="nav child_menu">
-                                    <li><a href="{{route('gerencia')}}"> Relátorio Leads</a></li>
-                                    <li><a href="{{route('pdp')}}"> Relátorio PDP's</a></li>
-                                    <li><a href="{{route('geral.frete')}}"> Relátorio Fretes</a></li>
-                                </ul>
-                            </li>
+                                <li>
+                                    <a><i class="fa fa-bolt"></i> Administrativo <span class="fa fa-chevron-down"></span> </a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="{{route('gerencia')}}"> Relátorio Leads</a></li>
+                                        <li><a href="{{route('pdp')}}"> Relátorio PDP's</a></li>
+                                        <li><a href="{{route('geral.frete')}}"> Relátorio Fretes</a></li>
+                                    </ul>
+                                </li>
 
                             @endif
                             <li><a><i class="fa fa-desktop"></i> Comercial <span class="fa fa-chevron-down"></span></a>
@@ -125,6 +122,25 @@
                                 </li>
                                 <li><a href="javascript:;">Dúvidas?</a></li>
                                 <li><a href="{{url('logout')}}"><i class="fa fa-sign-out pull-right"></i>Sair</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="badge bg-green">0</span>
+                            </a>
+                            <ul>
+                                @for($i = 0; $i<5;$i++)
+                                    <li>
+                                        <a>
+
+                                            <span class="time"></span>
+                                            <span class="message">
+                                            Acesse já :D
+                                            </span>
+                                        </a>
+                                    </li>
+                                @endfor
                             </ul>
                         </li>
 
@@ -198,22 +214,8 @@
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
-<!-- Bootstrap -->
-<script src="{{asset('arq/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 
-<!-- Skycons -->
-<script src="{{asset('arq/skycons/skycons.js')}}"></script>
-<!-- Flot -->
-<script src="{{asset('arq/Flot/jquery.flot.js')}}"></script>
-<script src="{{asset('arq/Flot/jquery.flot.pie.js')}}"></script>
-<script src="{{asset('arq/Flot/jquery.flot.time.js')}}"></script>
-<script src="{{asset('arq/Flot/jquery.flot.stack.js')}}"></script>
-<script src="{{asset('arq/Flot/jquery.flot.resize.js')}}"></script>
-<script src="{{asset('build/js/lightbox.min.js')}}"></script>
-
-
-<!-- Custom Theme Scripts -->
-<script src="{{asset('build/js/custom.min.js')}}"></script>
+<script src="{{asset('js/all.js')}}"></script>
 @yield('geolocation')
 @yield('frete')
 <!-- jquery.inputmask -->

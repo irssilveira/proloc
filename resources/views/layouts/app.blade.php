@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Proloc') }}</title>
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>

@@ -33,6 +33,7 @@ class Frete extends Model
         'mapa_fechamento',
         'km_fechamento',
         'observacao_fechamento',
+        'ativo'
 
     ];
 

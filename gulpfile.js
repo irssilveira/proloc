@@ -14,6 +14,28 @@ require('laravel-elixir-vue-2');
  */
 
 elixir((mix) => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    mix.styles([
+
+    'bootstrap.min.css',
+    'lightbox.min.css',
+    'custom.min.css',
+
+],'css/all.css');
+
+mix.scripts([
+    'bootstrap.min.js',
+    'jquery.flot.js',
+    'jquery.flot.pie.js',
+    'jquery.flot.time.js',
+    'jquery.flot.stack.js',
+    'jquery.flot.resize.js',
+    'lightbox.min.js',
+    'custom.min.js',
+
+
+],'public/js/all.js');
+
+//mix.version(['css/all.css','js/all.js']);
+
+
 });
