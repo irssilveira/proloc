@@ -1,4 +1,4 @@
-@extends('app')
+@extends('principal.store')
 
 @section('content')
     <div class="row">
@@ -73,7 +73,7 @@
 
                                 <div class="dropdown">
 
-                                    <a href="{{route('leads.editelead',['id'=>$lead->id])}}" class="btn btn-md btn-primary"><i class="fa fa-pencil"></i></a>
+                                    <a href="{{route('leads.edite',['id'=>$lead->id])}}" class="btn btn-md btn-primary"><i class="fa fa-pencil"></i></a>
 
                                 </div>
                             </td>

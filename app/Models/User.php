@@ -35,4 +35,7 @@ class User extends Authenticatable
 
     }
 
+    public function frete(){
+        return $this->belongsTo(Frete::class,'id','user_id')->where('ativo','>',0)->take(5);
+    }
 }

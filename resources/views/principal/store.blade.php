@@ -1,4 +1,10 @@
-@extends('app')
+@extends('principal.app')
+@section('left_col')
+    @include('principal.left_col')
+@endsection
+@section('menu_header')
+    @include('principal.menu_header')
+@endsection
 @section('content')
     <div class="container">
         <div class="row">
@@ -46,20 +52,7 @@
             </a>
 
         </div>
-        <!-- <div class="row">
-             <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12 col-xs-12">
-                 <div class="card-list green">
-                     <h3 class="title">Green Tile</h3>
-                     <p>Hello Green, this is a colored tile.</p>
-                 </div>
-             </div>
-             <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
-                 <div class="card-list blue">
-                     <h3 class="title">Blue Tile</h3>
-                     <p>Hello Blue, this is a colored tile.</p>
-                 </div>
-             </div>
-         </div> -->
+
     </div>
 
     <!-- area modal das opções -->
@@ -74,13 +67,13 @@
                 <div class="modal-body">
                     <div class="row">
                         <a class="confirmacaoLink" href="#"}">
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
-                                <div class="card-list red">
-                                    <h3 class="title">Novo Frete</h3>
-                                    <span class="glyphicon glyphicon-pencil estilo-icon"></span>
-                                    <p>Criar novo</p>
-                                </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                            <div class="card-list red">
+                                <h3 class="title">Novo Frete</h3>
+                                <span class="glyphicon glyphicon-pencil estilo-icon"></span>
+                                <p>Criar novo</p>
                             </div>
+                        </div>
                         </a>
                         <a href="{{route('leads')}}">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">

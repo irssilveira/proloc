@@ -13,7 +13,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer("*",function($view){
+            $view->with("menu_header",\proloc\Models\Frete::where('ativo','>',0)->take(5));
+
+        });
     }
 
     /**

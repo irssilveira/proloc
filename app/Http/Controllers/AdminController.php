@@ -3,6 +3,7 @@
 namespace proloc\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use proloc\Models\Frete;
 use proloc\Models\Leads;
@@ -41,7 +42,7 @@ class AdminController extends Controller
     }
 
     public function freteGeral(){
-        $fretes = $this->frete->where('unidade_id',Session::get('unidade_id'))->orderBy('id','desc')->paginate(20);
+        $fretes = $this->frete->where('unidade_id',Session::get('unidade_id'))->orderBy('ativo','asc')->paginate(20);
 
         return view('admin.relatorio_frete',compact('fretes'));
     }
@@ -49,6 +50,17 @@ class AdminController extends Controller
     public function verMaisFrete($id){
         $frete = $this->frete->find($id);
         return view('admin.ver_mais_frete',compact('frete'));
+    }
+
+    public function indexPrincipal(){
+
+        if(!empty(Auth::user()->unidade->first()->pivot->unidades_id)){
+            \Session::put('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id);
+        }
+
+
+        return view('principal.store');
+
     }
 
 }

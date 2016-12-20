@@ -13,13 +13,9 @@
 Route::get('/consultar_cep','HomeController@searchCep');
 Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
 
-    Route::get('/', function () {
-        if(!empty(Auth::user()->unidade->first()->pivot->unidades_id)){
-            \Session::put('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id);
-        }
+    Route::get('/', 'AdminController@indexPrincipal');
+    //Route::get('/','AdminController@mensagensHead');
 
-        return view('principal');
-    });
     Route::post('/ponto-partida','LocalController@storeLocal');
 
     Route::group(['prefix' => 'gerencia'],function() {

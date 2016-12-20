@@ -4,6 +4,8 @@ namespace proloc;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Facades\Session;
+use proloc\Models\Frete;
 use proloc\Models\Unidades;
 
 class User extends Authenticatable
@@ -30,5 +32,8 @@ class User extends Authenticatable
 
     public function unidade(){
         return $this->belongsToMany(Unidades::class);
+    }
+    public function frete(){
+        return $this->belongsTo(Frete::class,'id','user_id')->where('ativo','>',0)->take(5);
     }
 }

@@ -1,4 +1,4 @@
-@extends('app')
+@extends('principal.store')
 
 @section('content')
     <div class="row">

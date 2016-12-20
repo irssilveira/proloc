@@ -1,4 +1,4 @@
-@extends('app')
+@extends('principal.store')
 
 @section('content')
 
@@ -19,53 +19,53 @@
     <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
             @if($clientes->count() > 0)
-            <div class="table-responsive-vertical shadow-z-1">
-                <!-- Table starts here -->
-                <table id="tabela" class="table table-hover table-mc-light-blue">
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-
-                        <th>Nome/Razão Social</th>
-
-                        <th>Cidade</th>
-
-                        <th>UF</th>
-                        <th>Limite</th>
-
-                        <th>Opções</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach($clientes as $cliente)
-
+                <div class="table-responsive-vertical shadow-z-1">
+                    <!-- Table starts here -->
+                    <table id="tabela" class="table table-hover table-mc-light-blue">
+                        <thead>
                         <tr>
+                            <th>ID</th>
 
-                            <td class="vertical-middle" data-title="ID">{{$cliente->id}}</td>
+                            <th>Nome/Razão Social</th>
 
-                            <td data-title="Razão Social">{{$cliente->razao_social}}</td>
-                            <td data-title="cidade">{{$cliente->cidade}}</td>
-                            <td data-title="Estado">{{$cliente->uf}}</td>
-                            <td data-title="Limite">R$ {{number_format((float)$cliente->limite,2,",",".")}}</td>
-                            <td  data-title="Opções" class="text-center vertical-middle">
-                                <div class="dropdown">
-                                    <a href="javascript:;" class="btn  btn-primary btn-md" data-toggle="dropdown"><i class="fa fa-plus"></i></a>                        <ul class="dropdown-menu mudar-posicao pull-right">
-                                        <li>
-                                            <a href="{{route('clientes.editar',['id'=>$cliente->id])}}"><i class="fa fa-fw fa-gear"></i>Editar</a>                            </li>
+                            <th>Cidade</th>
 
-                                        <li class="divider"></li>
-                                        <li>
-                                            <a class="fechar" href="javascript:void(0)"><i class="fa fa-fw fa-times"></i>Fechar</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </td>
+                            <th>UF</th>
+                            <th>Limite</th>
+
+                            <th>Opções</th>
                         </tr>
-                    @endforeach
+                        </thead>
+                        <tbody>
+                        @foreach($clientes as $cliente)
 
-                    </tbody>
-                </table>
-            </div>
+                            <tr>
+
+                                <td class="vertical-middle" data-title="ID">{{$cliente->id}}</td>
+
+                                <td data-title="Razão Social">{{$cliente->razao_social}}</td>
+                                <td data-title="cidade">{{$cliente->cidade}}</td>
+                                <td data-title="Estado">{{$cliente->uf}}</td>
+                                <td data-title="Limite">R$ {{number_format((float)$cliente->limite,2,",",".")}}</td>
+                                <td  data-title="Opções" class="text-center vertical-middle">
+                                    <div class="dropdown">
+                                        <a href="javascript:;" class="btn  btn-primary btn-md" data-toggle="dropdown"><i class="fa fa-plus"></i></a>                        <ul class="dropdown-menu mudar-posicao pull-right">
+                                            <li>
+                                                <a href="{{route('clientes.editar',['id'=>$cliente->id])}}"><i class="fa fa-fw fa-gear"></i>Editar</a>                            </li>
+
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a class="fechar" href="javascript:void(0)"><i class="fa fa-fw fa-times"></i>Fechar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        @endforeach
+
+                        </tbody>
+                    </table>
+                </div>
             @else
                 <h2 class="text-center">Não há clientes cadastrados</h2>
             @endif
