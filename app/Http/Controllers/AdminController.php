@@ -42,7 +42,7 @@ class AdminController extends Controller
     }
 
     public function freteGeral(){
-        $fretes = $this->frete->where('unidade_id',Session::get('unidade_id'))->orderBy('ativo','asc')->paginate(20);
+        $fretes = $this->frete->where('unidade_id',Session::get('unidade_id'))->orderBy('ativo','asc')->orderBy('created_at','desc')->paginate(20);
 
         return view('admin.relatorio_frete',compact('fretes'));
     }
@@ -61,6 +61,10 @@ class AdminController extends Controller
 
         return view('principal.store');
 
+    }
+
+    public function fretePreco(){
+        return view('admin.tabela_preco');
     }
 
 }

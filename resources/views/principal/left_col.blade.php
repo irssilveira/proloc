@@ -49,6 +49,9 @@
                         <a><i class="fa fa-user-circle-o"></i> Cadastro <span class="fa fa-chevron-down"></span> </a>
                         <ul class="nav child_menu">
                             <li><a href="{{route('clientes')}}"> Cliente</a></li>
+                            @if(auth()->user()->tipo_user == "admin")
+                                <li><a href="{{route('frete.preco.total')}}"> Valor Frete</a></li>
+                            @endif
                         </ul>
                     </li>
 

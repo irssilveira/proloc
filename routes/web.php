@@ -30,10 +30,10 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         Route::get('{id}/vermais',['as' => 'geral.vermais','uses' => 'AdminController@verMaisLeads']);
         Route::get('{id}/vermaispdp',['as' => 'geral.vermaispdp','uses' => 'AdminController@verMaisLPdp']);
         Route::get('{id}/vermaisfrete',['as'=>'geral.vermaisfrete','uses'=>'AdminController@verMaisFrete']);
-        Route::get('/novo',['as'=>'leads.novo', 'uses' => 'LeadController@novo']);
 
 
     });
+
     Route::group(['prefix' => 'leads'],function() {
 
         //Novo lead abrir para cadastrar
@@ -85,8 +85,14 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         Route::post('/frete-fechamento','FreteController@freteFechamento');
         Route::get('/novo',['as'=>'frete.novo', 'uses' => 'FreteController@novo']);
         Route::get('/controle/{id}',['as' =>'frete.controle', 'uses' => 'FreteController@freteControle']);
-
-
+        Route::get('/fretes',['as'=> 'frete.total','uses'=> 'FreteController@totalFrete']);
+        Route::get('{id}/frete-interno',['as'=>'frete.interno','uses'=>'FreteController@freteInterno']);
+        Route::post('/frete-desativa/{id}',['as'=>'frete.desativa','uses'=> 'FreteController@freteDesativa']);
+        Route::get('preco-frete-todos',['as'=>'frete.preco.total','uses'=>'FreteController@precoFreteTodos']);
+        Route::get('/preco-frete',['as'=> 'frete.preco','uses'=>'FreteController@precoFrete']);
+        Route::post('/salvar-preco-frete',['as'=> 'salvar.frete.preco','uses'=>'FreteController@salvarPrecoFrete']);
+        Route::get('{id}/update-preco-frete',['as' => 'update.frete.preco','uses'=> 'FreteController@updatePrecoFrete']);
+        Route::post('{id}/edit-preco-frete',['as'=> 'edit.frete.preco','uses'=>'FreteController@editPrecoFrete']);
     });
 });
 Route::get('logout', '\proloc\Http\Controllers\Auth\LoginController@logout');
@@ -94,3 +100,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/login','\proloc\Http\Controllers\Auth\LoginController@mostraUnidade');
+
+Route::get('testeEmail','HomeController@testeEmail');

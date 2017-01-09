@@ -66,7 +66,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <a class="confirmacaoLink" href="#"}">
+                        <a class="confirmacaoLink" href="#">
                         <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
                             <div class="card-list red">
                                 <h3 class="title">Novo Frete</h3>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         </a>
-                        <a href="{{route('leads')}}">
+                        <a href="{{route('frete.total')}}">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
                                 <div class="card-list orange">
                                     <h3 class="title">Frete relatórios</h3>

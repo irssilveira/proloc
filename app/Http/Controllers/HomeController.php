@@ -4,6 +4,7 @@ namespace proloc\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Response;
 
 class HomeController extends Controller
@@ -43,4 +44,19 @@ class HomeController extends Controller
         return Response::json($dados);
 
     }
+
+    public function testeEmail(){
+
+
+        $emails = ['samotinho@gmail.com', 'jpsilveira12@hotmail.com','edgar@inovarlocacoes.com.br'];
+        Mail::send('emails.teste', ['msg' => 'hello'], function ($message) use($emails) {
+            $message->from('naoresponder@proloconline.com.br', 'Proloc Online | Sistema de Gestão');
+
+            $message->to($emails);
+            $message->subject('Proloc Online enviou uma mensagem pra você!');
+
+        });
+
+    }
+
 }

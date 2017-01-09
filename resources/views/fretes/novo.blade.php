@@ -76,6 +76,14 @@
             </a>
 
         </div>
+        <div id="fechamentoFrete" class="col-md-12">
+            <div class="text-center center-block">
+                <form method="post" action="{{route('frete.desativa',['id'=> $frete->id])}}">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    <button id="fecharFrete" type="submit" class="btn btn-success btn-lg">Fechar frete</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- modal abertura frete -->
@@ -255,6 +263,11 @@
                             <div class="row mb10">
                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                                     <input id="km_fechamento" maxlength="8" required="required" name="km_fechamento" class="form form-control" type="number" placeholder="Informe o KM *">
+                                </div>
+                            </div>
+                            <div class="row mb10">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                    <input id="hora_munk"  required="required" name="hora_munk" class="form form-control" type="time" placeholder="Tempo munk *">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-12">
