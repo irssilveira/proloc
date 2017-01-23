@@ -3,18 +3,23 @@
 namespace proloc\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use proloc\User;
 
-class Cidade extends Model
+class ClienteContato extends Model
 {
-    protected $table = 'cidade';
+    protected $table = 'cliente_contato';
     protected  $fillable = [
-        'nome',
-        'url_nome',
-        'estado_id'
+        'cliente_id',
+        'telefone',
+        'operadora',
+        'cargo',
+        'contato',
+        'email',
+        'principal'
     ];
 
-    public function franqueacidade(){
-        return $this->hasMany(Unidades::class);
+    public function clienteUsuario(){
+       return $this->belongsTo(Cliente::class,'cliente_id','id');
     }
 
 }

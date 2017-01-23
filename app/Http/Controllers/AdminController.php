@@ -55,9 +55,8 @@ class AdminController extends Controller
     public function indexPrincipal(){
 
         if(!empty(Auth::user()->unidade->first()->pivot->unidades_id)){
-            \Session::put('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id);
+           Session::put('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id);
         }
-
 
         return view('principal.store');
 

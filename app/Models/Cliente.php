@@ -8,6 +8,7 @@ class Cliente extends Model
 {
     protected $table = "cliente";
     protected $fillable = [
+        'id',
         'unidade_id',
         'razao_social_nome',
         'nome_fantasia',
@@ -25,6 +26,7 @@ class Cliente extends Model
         'data_nascimento',
         'franqueado',
         'unidade_franqueado',
+        'observacao',
         'cep_correspondencia',
         'endereco_correspondencia',
         'bairro_correspondencia',
@@ -37,7 +39,13 @@ class Cliente extends Model
     public function contato()
     {
 
-        return $this->hasMany(ContatoCliente::class);
+        return $this->hasMany(ClienteContato::class,'cliente_id','id');
 
     }
+
+    public function formaPagamento(){
+        return $this->belongsToMany(FormaPagamento::class,'cliente_pagamento');
+    }
+
+
 }

@@ -28,6 +28,7 @@ class CreateClienteTable extends Migration
             $table->string('referencia',300);
             $table->decimal('limite',14,2);
             $table->string('forma_pagamento',8);
+            $table->text('observacao');
             $table->date('data_nascimento')->nullable();
             $table->char('franqueado',1)->default('N');
             $table->string('unidade_franqueado',70)->default('N');

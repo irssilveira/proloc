@@ -20,7 +20,7 @@ elixir((mix) => {
     'lightbox.min.css',
     'custom.min.css',
 
-],'css/all.css');
+],'public/css/all.css');
 
 mix.scripts([
     'bootstrap.min.js',

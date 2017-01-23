@@ -69,7 +69,9 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         //Novo lead salvar
         Route::post('/salvarCliente',['as'=>'clientes.salvar','uses'=>'ClienteController@novoCliente']);
         //Abrir o lead para editar/add tarefa/outros
-        Route::get('{id}/editarCliente',['as'=>'clientes.editar','uses'=>'ClienteController@editarLead']);
+        Route::get('{id}/editarCliente',['as'=>'clientes.editar','uses'=>'ClienteController@editarCliente']);
+        Route::post('{id}/updateCliente',['as'=>'clientes.update','uses'=>'ClienteController@updateCliente']);
+        Route::get('informacao-cliente',['uses' => 'ClienteController@informacaoCliente']);
 
     });
     Route::group(['prefix' => 'frete'],function() {

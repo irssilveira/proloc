@@ -30,7 +30,7 @@
                     </li>
                     @if(auth()->user()->tipo_user == "admin")
                         <li>
-                            <a><i class="fa fa-bolt"></i> Administrativo <span class="fa fa-chevron-down"></span> </a>
+                            <a><i class="fa fa-bolt"></i> Relatórios <span class="fa fa-chevron-down"></span> </a>
                             <ul class="nav child_menu">
                                 <li><a href="{{route('gerencia')}}"> Relátorio Leads</a></li>
                                 <li><a href="{{route('pdp')}}"> Relátorio PDP's</a></li>

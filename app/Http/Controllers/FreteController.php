@@ -173,7 +173,7 @@ class FreteController extends Controller
             'unidade_id'                        =>  $campo['unidade_id'],
             'latitude_abertura'                 =>  $campo['latitude_abertura'],
             'longitude_abertura'                =>  $campo['longitude_abertura'],
-            'mapa_abertura'                      =>  $campo['mapa_abertura'],
+            'mapa_abertura'                     => $campo['mapa_abertura'],
             'contrato'                          =>  $campo['contrato'],
             'km_inicial'                        =>  $campo['km_inicial'],
             'cliente'                           =>  $campo['cliente'],
@@ -241,15 +241,24 @@ class FreteController extends Controller
 
             $valorTotal = $kmTotal * $valorFrete->preco_frete;
 
-            if(isset($freteAchado->hora_munk) && $freteAchado->hora_munk != 0){
+            if(isset($freteAchado->hora_munk)) {
                 $horas = $freteAchado->hora_munk;
 
-                $quebraHora = explode(":",$horas);
+                $quebraHora = explode(":", $horas);
+                //dd($quebraHora);
                 $minutos = $quebraHora[0];
-                $minutos = $minutos*60;
-                $minutos =$minutos+$quebraHora[1];
-                $valorMunk = ($minutos/60)*$valorFrete->hora_munk;
+                if ($minutos == 0) {
 
+                    $valorMunk = ($quebraHora[1] / 60) * $valorFrete->hora_munk;
+
+                } elseif($minutos!=0){
+
+
+                    $minutos = $minutos * 60;
+                    $minutos = $minutos + $quebraHora[1];
+                    $valorMunk = ($minutos / 60) * $valorFrete->hora_munk;
+
+                }
             }else{
                 $valorMunk = 0;
             }
@@ -265,9 +274,9 @@ class FreteController extends Controller
                 'valor_munk' => $valorMunk,
                 'horas' => $freteAchado->created_at,
                 'hora_total_munk' => $freteAchado->hora_munk
-             );
+            );
 
-            $emails = ['samotinho@gmail.com', 'edgar@inovarlocacoes.com.br','mauricio@inovarlocacoes.com.br'];
+            $emails = ['samotinho@gmail.com', 'edgar@inovarlocacoes.com.br','mauricio@inovarlocacoes.com.br','controladoria@inovarlocacoes.com.br'];
             Mail::send('emails.fechamento_frete',$freteData,function($message) use ($freteData,$emails){
                 $message->from('naoresponder@proloconline.com.br', 'Proloc Online | Sistema de Gestão');
                 $message->to($emails);

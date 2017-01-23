@@ -76,7 +76,7 @@
             </a>
 
         </div>
-        <div id="fechamentoFrete" class="col-md-12">
+        <div class="col-md-12">
             <div class="text-center center-block">
                 <form method="post" action="{{route('frete.desativa',['id'=> $frete->id])}}">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
