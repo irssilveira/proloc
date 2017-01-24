@@ -4,22 +4,28 @@ namespace proloc\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Session;
+use proloc\Models\Cliente;
 use proloc\Models\Frete;
 use proloc\Models\Leads;
 use proloc\Models\Ponto;
+
 
 class AdminController extends Controller
 {
     private $lead;
     private $pdp;
     private $frete;
+    private $cliente;
 
 
-    public function __construct(Frete $frete,Leads $lead,Ponto $pdp){
+    public function __construct(Frete $frete,Leads $lead,Ponto $pdp,Cliente $cliente){
         $this->lead = $lead;
         $this->pdp = $pdp;
         $this->frete = $frete;
+        $this->cliente = $cliente;
     }
 
     public function relatorioGeralLeads(){
@@ -64,6 +70,17 @@ class AdminController extends Controller
 
     public function fretePreco(){
         return view('admin.tabela_preco');
+    }
+    //Aqui pesquisa query
+    public function searchQuery($query){
+        $resultados = null;
+        $resultados = $this->cliente->where('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id)->where('razao_social_nome','LIKE',$query.'%')->orWhere('cnpj_cpf','LIKE',$query.'%')->with('contato')->distinct()->get();
+
+        return Response::json($resultados);
+       /* $resultados = null;
+        $query = Input::get('keywords');
+        $resultados = $this->cliente->where('unidade_id',Auth::user()->unidade->first()->pivot->unidades_id)->where('razao_social_nome','like',$query.'%')->orWhere('cnpj_cpf','like',$query.'%')->with('contato')->take(8)->distinct()->get();
+        return Response::json($resultados); */
     }
 
 }

@@ -24,7 +24,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="input-group">
-                <input type="Search" placeholder="Search..." class="form form-control" />
+                <input id="keywords" type="text" name="keywords" placeholder="Pesquisar..." class="form form-control" />
                 <div class="input-group-btn">
                     <button class="btn btn-info">
                         <span class="lh27 glyphicon glyphicon-search"></span>
@@ -52,7 +52,7 @@
                             <th>Opções</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="clientes">
                         @foreach($clientes as $cliente)
 
                             <tr>

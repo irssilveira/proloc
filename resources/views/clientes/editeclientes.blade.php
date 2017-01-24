@@ -215,7 +215,7 @@
                             </div>
                         @else
                             <div class="row">
-
+                                <input type="hidden" value="{{$clienteUpdate->id}}" name="cliente_id" />
                                 <div class="col-md-4 col-lg-4 col-sm-2 col-xs-12">
                                     <input type="text" id="telefone" name="telefone" placeholder="Telefone *"  class="form form-control col-md-7 col-xs-12" data-inputmask="'mask': '(99) 9999-9999'">
 

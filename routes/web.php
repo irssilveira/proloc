@@ -13,6 +13,7 @@
 Route::get('/consultar_cep','HomeController@searchCep');
 Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
 
+
     Route::get('/', 'AdminController@indexPrincipal');
     //Route::get('/','AdminController@mensagensHead');
 
@@ -72,7 +73,7 @@ Route::group(['middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
         Route::get('{id}/editarCliente',['as'=>'clientes.editar','uses'=>'ClienteController@editarCliente']);
         Route::post('{id}/updateCliente',['as'=>'clientes.update','uses'=>'ClienteController@updateCliente']);
         Route::get('informacao-cliente',['uses' => 'ClienteController@informacaoCliente']);
-
+        Route::get('/search-query/{query?}','AdminController@searchQuery');
     });
     Route::group(['prefix' => 'frete'],function() {
 

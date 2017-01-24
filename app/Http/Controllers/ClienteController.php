@@ -41,7 +41,10 @@ class ClienteController extends Controller
 
         $clienteContato = $this->clienteContato->fill($request->all());
 
+
         $formaPagamento = $cliente->forma_pagamento;
+
+
         unset($cliente->forma_pagamento);
 
 
@@ -51,12 +54,14 @@ class ClienteController extends Controller
         $clienteSalvo = Cliente::create($cliente);
         //dd($clienteSalvo->id);
         if(isset($clienteSalvo->id)){
-            if(isset($clienteContato)){
+            if(!empty($clienteContato->telefone)){
+
                 $clienteContato->cliente_id = $clienteSalvo->id;
                 $clienteContato->save();
 
             }
-            if(isset($formaPagamento)){
+            if($formaPagamento != null) {
+
                 $clienteSalvo->formaPagamento()->sync($formaPagamento);
             }
             $request->session()->flash('alert-success','Cadastrado com sucesso!');
@@ -79,24 +84,35 @@ class ClienteController extends Controller
         $cliente = $this->cliente->find($id);
         $idcliente = $cliente->id;
 
-
         $clienteDados = $this->cliente->fill($request->all());
 
         $formaPagamento = $clienteDados->forma_pagamento;
         unset($clienteDados->forma_pagamento);
-        $cliente->formaPagamento()->sync($formaPagamento);
+        if($formaPagamento != null) {
+
+            $cliente->formaPagamento()->sync($formaPagamento);
+        }
 
         $clienteContato = $this->clienteContato->fill($request->all());
-        $clienteContato = $clienteContato->toArray();
 
+        if(!empty($clienteContato->telefone)) {
+
+
+            $clienteContatoArray = $clienteContato->toArray();
+        }
 
 
         $data_nascimento = DateTime::createFromFormat('d/m/Y',$request->get('data_nascimento'))->format('Y-m-d');
         $clienteDados->data_nascimento = $data_nascimento;
         $clienteDados = $clienteDados->toArray();
         if($this->cliente->find($id)->update($clienteDados)){
+            if($this->clienteContato->where('cliente_id',$idcliente)->first() == null){
 
-            $this->clienteContato->where('cliente_id',$idcliente)->update($clienteContato);
+                $clienteContato->cliente_id = $idcliente;
+                $clienteContato->save();
+            }else{
+                $this->clienteContato->where('cliente_id',$idcliente)->update($clienteContatoArray);
+            }
             $request->session()->flash('alert-edit','Editado com sucesso!');
             return redirect()->route('clientes');
 

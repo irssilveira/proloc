@@ -58,19 +58,19 @@ class LeadController extends Controller
     //Mostrar todos os leads
     public function mostrarLeads(){
 
-        $leads = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',Session::get('unidade_id'))->where('leads_historico.status', '=', 'Pendente')->orderBy('dataRetorno','asc')->paginate(30);
+        $leads = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',auth()->user()->unidade->first()->pivot->unidades_id)->where('leads_historico.status', '=', 'Pendente')->orderBy('dataRetorno','asc')->paginate(30);
 
         return view('leads.todosleads',compact('leads'));
     }
 
         public function leadsInativo(){
-            $leadsInativo = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',Session::get('unidade_id'))->where('leads_historico.status', '=', 'Finalizado')->orderBy('dataRetorno','asc')->paginate(30);
+            $leadsInativo = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',auth()->user()->unidade->first()->pivot->unidades_id)->where('leads_historico.status', '=', 'Finalizado')->orderBy('dataRetorno','asc')->paginate(30);
             return Response::json($leadsInativo);
 
         }
 
     public function leadsTodos(){
-        $leadsTodos = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',Session::get('unidade_id'))->where('leads_historico.status', '=', 'Pendente')->orderBy('dataRetorno','asc')->paginate(30);
+        $leadsTodos = LeadsHistorico::join('leads', 'leads.id', '=', 'leads_historico.lead_id')->where('unidades_id',auth()->user()->unidade->first()->pivot->unidades_id)->where('leads_historico.status', '=', 'Pendente')->orderBy('dataRetorno','asc')->paginate(30);
         return Response::json($leadsTodos);
     }
 
@@ -96,7 +96,7 @@ class LeadController extends Controller
         $user = Auth::user();
 
         $lead = Leads::find($data['id']);
-        $lead->unidades_id = Session::get('unidade_id');
+        $lead->unidades_id = auth()->user()->unidade->first()->pivot->unidades_id;
         $lead->nome = $data['nome'];
         $lead->email = $data['email'];
         $lead->telefone = $data['telefone'];

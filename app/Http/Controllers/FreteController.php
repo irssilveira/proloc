@@ -293,7 +293,7 @@ class FreteController extends Controller
     }
 
     public function precoFreteTodos(){
-        $precoFrete = $this->precoFrete->where('unidade_id',Session::get('unidade_id'))->get();
+        $precoFrete = $this->precoFrete->where('unidade_id',auth()->user()->unidade->first()->pivot->unidades_id)->get();
         return view('admin.relatorio_preco_frete',compact('precoFrete'));
 
     }
@@ -307,7 +307,7 @@ class FreteController extends Controller
             $precoFrete = $this->precoFrete->fill($request->all());
             $precoFrete->preco_frete = str_replace(",",".",str_replace(".","",$precoFrete->preco_frete));
             $precoFrete->hora_munk = str_replace(",",".",str_replace(".","",$precoFrete->hora_munk));
-            $precoFrete->unidade_id = Session::get('unidade_id');
+            $precoFrete->unidade_id = auth()->user()->unidade->first()->pivot->unidades_id;
             $precoFrete->responsavel = auth()->user()->name;
             $precoFrete->save();
             $request->session()->flash('alert-success','Cadastrado com sucesso!');
